@@ -1,20 +1,20 @@
 import botbrain
+from telebot import types
 
-bot = botbrain.bot
+# bot = botbrain.bot
 
-discription = "Это бот агенства Too Easy Travel. Он поможет Вам подобрать отель по заданным параметрам"
+def send_start_mess(bot):
+    discription = "Это Telegram-бот для анализа сайта Hotels.com и поиска подходящих пользователю отелей"
 
-@bot.message_handler(commands=['start'])
-def start_message(message):
-    bot.send_message(message.from_user.id, 'Привет')
-    bot.send_message(message.from_user.id, discription)
+    @bot.message_handler(commands=['start'])
+    def start_message(message):
+        bot.send_message(message.from_user.id, 'Привет')
+        bot.send_message(message.from_user.id, discription)
+        bot.send_message(message.from_user.id, 'продолжим?...')
+        keyboard = types.InlineKeyboardMarkup()
+        key_yes = types.InlineKeyboardButton(text='Да', callback_data='yes')
+        keyboard.add(key_yes)
+        key_no = types.InlineKeyboardButton(text='Нет', callback_data='no')
+        keyboard.add(key_no)
 
 
-@bot.message_handler(content_types=['text'])
-def get_text_messages(message):
-    if message.text.lower() == "привет":
-        bot.send_message(message.from_user.id, "Привет, чем я могу тебе помочь?")
-    elif message.text == "/help":
-        bot.send_message(message.from_user.id, "Напиши привет")
-    else:
-        bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши /help.")
