@@ -1,6 +1,6 @@
 from telebot import types
 from API.bigText import DESCRIPTION, HELP_ANSWER, POLL_COMMAND
-# import Commands
+from Commands import lowprice
 from loader import BOT as bot
 
 
@@ -37,7 +37,11 @@ def inline_menu(call):
 
     for poll in POLL_COMMAND:
         if poll in call.data:
-            bot.send_message(call.from_user.id, text=POLL_COMMAND[poll], reply_markup=return_main_menu)
+            # bot.reply_to(call.from_user.id, text=POLL_COMMAND[poll])
+            keyb = types.ForceReply()
+            bot.send_message(call.from_user.id, text='Укажите город для поиска', reply_markup=keyb)
+
+            lowprice.get_started(call.message)
             break
 
 
