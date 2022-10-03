@@ -1,8 +1,26 @@
-# Sample GitLab Project
+# Telegram-бот для поиска отелей на сайте Hotels.com.
+## Описание
+Это Telegram-бот для анализа сайта Hotels.com и поиска подходящих пользователю отелей
+Пользователь с помощью кнопок или специальных команд бота может просмотреть (получить следующую информацию):
+1. Узнать топ самых дешёвых отелей в городе (команда /lowprice).
+2. Узнать топ самых дорогих отелей в городе (команда /highprice).
+3. Узнать топ отелей, наиболее подходящих по цене и расположению от центра
+(самые дешёвые и находятся ближе всего к центру) (команда /bestdeal)
+4. Узнать историю поиска отелей (команда /history)
+5. Получить помощь по работе бота (команда /help)
 
-This sample project shows how a project in GitLab looks for demonstration purposes. It contains issues, merge requests and Markdown files in many branches,
-named and filled with lorem ipsum.
+## Установка
+1. Клонируйте репозиторий.
+2. Подготовьте секретный ключ от вашего Telegram-бота 
+3. Подготовьте секретный ключ от API Hotels, который расположен на сайте rapidapi.com. 
+4. Создайте файл secret_keys.txt в папке API проекта. Занесите в этот файл значения двух ваших секретных ключей:
+```
+<секретный токен вашего Telegram-бота>
+<секретный ключ X-RapidAPI-Key>
+```
 
-You can look around to get an idea how to structure your project and, when done, you can safely delete this project.
-
-[Learn more about creating GitLab projects.](https://docs.gitlab.com/ee/gitlab-basics/create-project.html)
+## Запуск
+Находясь в папке проекта, запустите файл main.py
+```
+python main.py
+```
