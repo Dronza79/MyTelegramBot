@@ -1,3 +1,4 @@
 *.txt
 Temp/
 .idea/
+/.env

@@ -1,9 +1,12 @@
+import os
+
 import telebot
+from dotenv import load_dotenv, find_dotenv
 
-with open('API/secret_keys.txt', 'r') as file:
-    data = file.readlines()
+load_dotenv(find_dotenv())
 
-__token = data[0].strip()
-RapidAPI_Key = data[1].strip()
+__token = os.environ.get("TOKEN")
+RapidAPI_Key = os.environ.get("RapidAPI_Key")
+
 
 BOT = telebot.TeleBot(__token)

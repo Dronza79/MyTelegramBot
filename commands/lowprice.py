@@ -1,26 +1,38 @@
-import requests
+# import re
+
+# import requests
+from telebot.types import Message, BotCommand, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+
+from API.bigText import ANSWER
 from loader import BOT as bot
-import telebot
-from telebot import types
 
-city = ''
-number_hotels = 0
+# from telebot import types
 
-# bot.register_next_step_handler(call, callback=get_city)  # следующий шаг – функция get_name
-# bot.send_message(call.from_user.id, text=result, reply_markup=return_main_menu)
-@bot.message_handler(content_types=['text'])
-def get_city(message):  # получаем фамилию
-    if 'lowprice' == message:
-        global city
-        city = message.text
-        bot.send_message(message.from_user.id, 'Укажите количество отелей')
-        bot.register_next_step_handler(message, get_number_hotels)
+poll = dict()
 
-
-def get_number_hotels(message):  # получаем фамилию
-    global number_hotels
-    number_hotels = message.text
+@bot.message_handler(regexp='\b[^/]\w+')
+def get_city(message):  # получаем город
+    print(message.text)
+    poll['city'] = message.text
     bot.send_message(message.from_user.id, 'Укажите количество отелей')
     bot.register_next_step_handler(message, get_number_hotels)
 
-result = f'Вы выбрали город {city} и количество отелей: {number_hotels}'
+
+def get_number_hotels(message):  # получаем количество отелей
+    print(message.text)
+    number_hotels = message.text
+    if type(number_hotels) == int:
+        answer = InlineKeyboardMarkup()
+        btns = [InlineKeyboardButton(text=value, callback_data=key) for key, value in ANSWER.items()]
+        answer.row(btns[0], btns[1])
+        msg = bot.send_message(message.from_user.id, 'Показать фото?', reply_markup=answer)
+        bot.register_next_step_handler(message, get_number_hotels)
+
+
+# def get_number_hotels(message):  # получаем количество отелей
+#     global number_hotels
+#     number_hotels = message.text
+#     bot.send_message(message.from_user.id, 'Укажите количество отелей')
+#     bot.register_next_step_handler(message, get_number_hotels)
+#
+# f'Вы выбрали город {city} и количество отелей: {number_hotels}'
