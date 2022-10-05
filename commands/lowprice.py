@@ -50,8 +50,12 @@ def get_city(message):  # получаем город
 def get_number_hotels(message):  # получаем количество отелей
     number_hotels = message.text
     user = message.chat.id
-    if not number_hotels.isdigit() or number_hotels > 25:
-        msg = bot.send_message(message.from_user.id, text='Ошибка. Количество не верное. попробуйте еще раз')
+    if not number_hotels.isdigit():
+        msg = bot.send_message(message.from_user.id, text='Ошибка. Должна быть цифра')
+        bot.register_next_step_handler(msg, get_number_hotels)
+        return
+    if number_hotels > 25:
+        msg = bot.send_message(message.from_user.id, text='Ошибка. Должно быть не более 25')
         bot.register_next_step_handler(msg, get_number_hotels)
         return
     poll = history[user][len(history[user]) - 1]
