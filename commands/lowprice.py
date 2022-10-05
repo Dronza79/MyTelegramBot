@@ -1,7 +1,7 @@
-import datetime
+import time
 
-import requests
-from telebot.types import Message, BotCommand, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
+# import requests
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from API.bigText import ANSWER
 from loader import BOT as bot, history
@@ -17,7 +17,8 @@ class LowPrice:
         self.number_photo = None
 
     def __str__(self):
-        return f'Ваш запрос: lowprice; data: '
+        return (f'Ваш запрос: lowprice;\nдата: {time.strftime("%x %X", time.localtime(self.date))}'
+                f'город: {self.city}; количество отелей {self.number_hotels};')
 
 
 @bot.message_handler(commands=['lowprice'])
@@ -63,12 +64,14 @@ def get_number_hotels(message):  # получаем количество оте�
 
 @bot.callback_query_handler(func=lambda call: call.data in ['yes', 'not'])
 def get_answer(call):
+    user = call.from_user.id
+    poll = history[user][len(history[user]) - 1]
     if call.data == 'yes':
-        user = call.from_user.id
-        poll = history[user][len(history[user]) - 1]
         poll.required_photo = True
         msg = bot.send_message(call.from_user.id, text='Укажите количество (не более 5):')
         bot.register_next_step_handler(msg, get_photos)
+    else:
+        bot.send_message(user, text=poll)
 
 
 def get_photos(message):
@@ -80,3 +83,4 @@ def get_photos(message):
         return
     poll = history[user][len(history[user]) - 1]
     poll.number_photo = num_foto
+    bot.send_message(message.from_user.id, text=poll)
