@@ -18,7 +18,7 @@ class LowPrice:
 
     def __str__(self):
         return (f'Ваш запрос: lowprice;\nдата: {time.strftime("%x %X", time.localtime(self.date))}'
-                f'город: {self.city}; количество отелей {self.number_hotels};')
+                f'\nгород: {self.city};\nколичество отелей {self.number_hotels};')
 
 
 @bot.message_handler(commands=['lowprice'])
