@@ -1,8 +1,8 @@
 from telebot.types import Message, BotCommand, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 # from collections.abc import Collection
 
-from API.bigText import DESCRIPTION, HELP_ANSWER, GEN_KEYB
-from Commands import lowprice
+from API.bigText import DESCRIPTION, HELP_ANSWER, GEN_KEYB, ANSWER
+import Commands
 from loader import BOT as bot
 
 
@@ -14,13 +14,12 @@ def process_start(message: BotCommand) -> None:
     - приступить к работе бота
 
     :param message: команда инициализации бота (/start)
-    :return: None
+    :return: Команды кнопок Помощь, Начало работы
     """
     bot.send_message(message.from_user.id, 'Привет\n'+DESCRIPTION)
     greeting = InlineKeyboardMarkup()
-    button1 = InlineKeyboardButton(text='Посмотреть помощь', callback_data='help')
-    button2 = InlineKeyboardButton(text='Начать работу', callback_data='go')
-    greeting.row(button1, button2)
+    btns = [InlineKeyboardButton(text=GEN_KEYB[key], callback_data=key) for key in ['help', 'go']]
+    greeting.row(btns[0], btns[1])
     bot.send_message(message.from_user.id, text='Вы можете:', reply_markup=greeting)
 
 
@@ -31,34 +30,24 @@ def text_command_chat(message):
     bot.send_message(message.from_user.id, text=HELP_ANSWER, reply_markup=helpkey)
 
 
-@bot.callback_query_handler(func=lambda call: True)
-def inline_menu(call):
-
-    main_menu = InlineKeyboardMarkup()
-    buttons = [InlineKeyboardButton(text=value, callback_data=key) for key, value in GEN_KEYB.items()]
-    main_menu.row(buttons[0], buttons[1]).row(buttons[2], buttons[3])
-    start_work = InlineKeyboardMarkup()
-    start_work.add(InlineKeyboardButton(text='Начать работу', callback_data='go'))
-    return_main_menu = InlineKeyboardMarkup()
-    return_main_menu.add(InlineKeyboardButton(text='Вернутся в главное меню', callback_data='go'))
+@bot.callback_query_handler(func=lambda call: call.data in ['go', 'help'])
+def run_maim_menu(call):
+    print(call.data)
+        # return_main_menu = InlineKeyboardMarkup()
+    # return_main_menu.add(InlineKeyboardButton(text='Вернутся в главное меню', callback_data='go'))
 
     if 'help' in call.data:
+        start_work = InlineKeyboardMarkup()
+        start_work.add(InlineKeyboardButton(text='Начать работу', callback_data='go'))
         bot.send_message(call.from_user.id, text=HELP_ANSWER, reply_markup=start_work)
 
     elif 'go' in call.data:
+        main_menu = InlineKeyboardMarkup()
+        buttons = [InlineKeyboardButton(text=GEN_KEYB[key], callback_data=key) for key in [
+            'lowprice', 'highprice', 'bestdeal', 'history'
+        ]]
+        main_menu.row(buttons[0], buttons[1]).row(buttons[2], buttons[3])
         bot.send_message(call.from_user.id, text='Выберите действие для просмотра:', reply_markup=main_menu)
-
-    elif 'lowprice' in call.data:
-        msg = bot.send_message(call.from_user.id, text='Укажите город для поиска')
-        bot.register_next_step_handler(msg, lowprice.get_city)  # следующий шаг – функция get_started
-
-
-# @bot.message_handler(commands=['lowprice', 'highprice', 'bestdeal'])
-# def text_command_chat(message):
-#     if 'lowprice' in message.text:
-#         bot.send_message(message.from_user.id, 'Производим поиск')
-
-
 
 
 if __name__ == '__main__':
