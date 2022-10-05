@@ -54,7 +54,7 @@ def get_number_hotels(message):  # получаем количество оте�
         msg = bot.send_message(message.from_user.id, text='Ошибка. Должна быть цифра')
         bot.register_next_step_handler(msg, get_number_hotels)
         return
-    if number_hotels > 25:
+    if int(number_hotels) > 25:
         msg = bot.send_message(message.from_user.id, text='Ошибка. Должно быть не более 25')
         bot.register_next_step_handler(msg, get_number_hotels)
         return
@@ -81,8 +81,12 @@ def get_answer(call):
 def get_photos(message):
     num_foto = message.text
     user = message.from_user.id
-    if not num_foto.isdigit() or num_foto > 5:
-        msg = bot.send_message(message.from_user.id, text='Ошибка. Количество не верное. попробуйте еще раз')
+    if not num_foto.isdigit():
+        msg = bot.send_message(message.from_user.id, text='Ошибка. Должно быть число')
+        bot.register_next_step_handler(msg, get_photos)
+        return
+    if int(num_foto) > 5:
+        msg = bot.send_message(message.from_user.id, text='Ошибка. Число должно быть меньше или равно 5')
         bot.register_next_step_handler(msg, get_photos)
         return
     poll = history[user][len(history[user]) - 1]
