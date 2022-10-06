@@ -1,10 +1,10 @@
 import time
 
-# import requests
+import requests
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from api.big_text import ANSWER
-from loader import bot, history
+from loader import bot, history, RapidAPI_Key
 
 
 class LowPrice:
@@ -20,6 +20,10 @@ class LowPrice:
         temp = 'Удача' if self.result else 'Неудача'
         return (f'Ваш запрос: {temp}.\nТип: Дешевые отели.\nДата: {time.strftime("%x %X", time.localtime(self.date))}'
                 f'\nГород: {self.city}.\nКоличество отелей {self.number_hotels}.')
+
+
+url = "https://hotels4.p.rapidapi.com/locations/v3/search"
+headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
 
 
 @bot.message_handler(commands=['lowprice'])
@@ -38,6 +42,7 @@ def get_city(message):  # получаем город
     user = message.chat.id
     date = message.date
     city = message.text
+    querystring = {"q":city}
     poll = LowPrice(date, city)
     if user in history:
         user = history[user]
