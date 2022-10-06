@@ -4,7 +4,7 @@ import time
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from API.bigText import ANSWER
-from loader import BOT as bot, history
+from loader import bot, history
 
 
 class LowPrice:
@@ -17,8 +17,9 @@ class LowPrice:
         self.number_photo = None
 
     def __str__(self):
-        return (f'Ваш запрос: lowprice;\nдата: {time.strftime("%x %X", time.localtime(self.date))}'
-                f'\nгород: {self.city};\nколичество отелей {self.number_hotels};')
+        temp = 'Удача' if self.result else 'Неудача'
+        return (f'Ваш запрос: {temp}.\nТип: Дешевые отели.\nДата: {time.strftime("%x %X", time.localtime(self.date))}'
+                f'\nГород: {self.city}.\nКоличество отелей {self.number_hotels}.')
 
 
 @bot.message_handler(commands=['lowprice'])
