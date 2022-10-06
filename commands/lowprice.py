@@ -1,9 +1,11 @@
+import json
 import time
 
 import requests
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from api.big_text import ANSWER
+from api.handler_reqest_api_hotels import handler_city
 from loader import bot, history, RapidAPI_Key
 
 
@@ -18,12 +20,9 @@ class LowPrice:
 
     def __str__(self):
         temp = 'Удача' if self.result else 'Неудача'
-        return (f'Ваш запрос: {temp}.\nТип: Дешевые отели.\nДата: {time.strftime("%x %X", time.localtime(self.date))}'
+        return (f'Ваш запрос: {temp}.\nТип: Дешевые отели.\nДата: '
+                f'{time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
                 f'\nГород: {self.city}.\nКоличество отелей {self.number_hotels}.')
-
-
-url = "https://hotels4.p.rapidapi.com/locations/v3/search"
-headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
 
 
 @bot.message_handler(commands=['lowprice'])
@@ -42,13 +41,18 @@ def get_city(message):  # получаем город
     user = message.chat.id
     date = message.date
     city = message.text
-    querystring = {"q":city}
+    bot.send_message(message.from_user.id, 'Проверяю....')
     poll = LowPrice(date, city)
     if user in history:
         user = history[user]
         user.append(poll)
     else:
         history[user] = [poll]
+    if not handler_city(city):
+        poll.result = False
+        msg = bot.send_message(message.from_user.id, text='Такого города нет')
+        bot.register_next_step_handler(msg, get_city)
+        return
     bot.send_message(message.from_user.id, 'Укажите количество отелей (не более 25)')
     bot.register_next_step_handler(message, get_number_hotels)
 
