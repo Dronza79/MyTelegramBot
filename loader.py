@@ -9,6 +9,6 @@ __token = os.environ.get("TOKEN")
 RapidAPI_Key = os.environ.get("RapidAPI_Key")
 
 
-BOT = telebot.TeleBot(__token)
+bot = telebot.TeleBot(__token)
 
 history = dict()
