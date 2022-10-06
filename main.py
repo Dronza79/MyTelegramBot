@@ -2,8 +2,8 @@ from telebot.types import Message, BotCommand, CallbackQuery, InlineKeyboardMark
 # from collections.abc import Collection
 
 from API.bigText import DESCRIPTION, HELP_ANSWER, GEN_KEYB, ANSWER
-import Commands
-from loader import BOT as bot
+import commands
+from loader import bot
 
 
 @bot.message_handler(commands=['start'])
