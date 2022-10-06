@@ -3,7 +3,7 @@ import time
 # import requests
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from API.bigText import ANSWER
+from api.big_text import ANSWER
 from loader import bot, history
 
 

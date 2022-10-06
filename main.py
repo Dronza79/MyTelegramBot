@@ -1,7 +1,7 @@
 from telebot.types import Message, BotCommand, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 # from collections.abc import Collection
 
-from API.bigText import DESCRIPTION, HELP_ANSWER, GEN_KEYB, ANSWER
+from api.big_text import DESCRIPTION, HELP_ANSWER, GEN_KEYB, ANSWER
 import commands
 from loader import bot
 
