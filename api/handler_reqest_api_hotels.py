@@ -1,29 +1,43 @@
-import time
 import json
 from string import ascii_letters
 import re
 
 import requests
-from transliterate import translit
-from loader import bot, history, RapidAPI_Key
+from loader import RapidAPI_Key, tomorrow, next_day
 
 
-url = "https://hotels4.p.rapidapi.com/locations/v3/search"
-headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
-
-
-def handler_city(city: str) -> bool:
-    querystring = {"q": city}
+def handler_city(city):
+    url = "https://hotels4.p.rapidapi.com/locations/search"
+    headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
+    querystring = {"query": city, "locale": "ru_RU"}
     response = requests.request("GET", url, headers=headers, params=querystring)
     data = json.loads(response.text)
-    if not data['rs'] == 'OK':
-        return False
-    if all(map(lambda l: l not in ascii_letters, city)):
-        city = translit(city, 'ru', reversed=True)
-        regexp = f'{city[:-2]}\w+'
-    list_result = []
-    for elem in data['sr']:
-        if elem['type'] == "CITY" and re.search(regexp, elem["regionNames"]["fullName"]):
-            list_result.append(elem["gaiaId"])
-    return list_result
+    index = None
+    data = data['suggestions']
+    for elem in data:
+        if elem['group'] == "CITY_GROUP":
+            for item in elem['entities']:
+                if item['type'] == "CITY":
+                    index = item['destinationId']
+                    break
+            break
+    return index
 
+
+def display_result(town_id, amout_htls, sort):
+    url = "https://hotels4.p.rapidapi.com/properties/list"
+    querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amout_htls, "checkIn": tomorrow,
+                   "checkOut": next_day, "adults1": "1", "sortOrder": sort, "locale": "ru_RU", "currency": "USD"}
+    headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
+    response = requests.request("GET", url, headers=headers, params=querystring)
+    data = json.loads(response.text)
+    hotels = data['data']['body']['searchResults']['results']
+    for hotel in hotels:
+        address = f"{hotel['address']['locality']}. {hotel['address']['streetAddress']}"
+        hotel_id = hotel['id']
+        price = hotel['ratePlan']['price']['exactCurrent']
+        string = (
+            f"Отель: {hotel['name']}\nАдрес: {address}\nРасположен от цента города - "
+            f"{hotel['landmarks'][0]['distance']}\nЦена за сутки: ${price}"
+        )
+        yield hotel_id, string

@@ -1,6 +1,6 @@
 from telebot.types import Message, BotCommand, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
-from api.big_text import DESCRIPTION, HELP_ANSWER, GEN_KEYB, ANSWER
+from api.big_text import DESCRIPTION, HELP_ANSWER, GEN_KEYB
 import commands
 from loader import bot
 
@@ -31,9 +31,6 @@ def text_command_chat(message):
 
 @bot.callback_query_handler(func=lambda call: call.data in ['go', 'help'])
 def run_maim_menu(call):
-    print(call.data)
-        # return_main_menu = InlineKeyboardMarkup()
-    # return_main_menu.add(InlineKeyboardButton(text='Вернутся в главное меню', callback_data='go'))
 
     if 'help' in call.data:
         start_work = InlineKeyboardMarkup()
