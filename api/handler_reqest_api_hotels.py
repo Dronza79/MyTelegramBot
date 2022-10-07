@@ -1,6 +1,7 @@
 import time
 import json
 from string import ascii_letters
+import re
 
 import requests
 from transliterate import translit
@@ -19,7 +20,10 @@ def handler_city(city: str) -> bool:
         return False
     if all(map(lambda l: l not in ascii_letters, city)):
         city = translit(city, 'ru', reversed=True)
+        regexp = f'{city[:-2]}\w+'
     list_result = []
     for elem in data['sr']:
-        if elem['type'] == "CITY" and city in elem["regionNames"]["fullName"]:
+        if elem['type'] == "CITY" and re.search(regexp, elem["regionNames"]["fullName"]):
             list_result.append(elem["gaiaId"])
+    return list_result
+
