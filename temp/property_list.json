@@ -1,0 +1,2357 @@
+{
+  "result": "OK",
+  "data": {
+    "body": {
+      "header": "Варшава, Мазовецкое воеводство, Польша",
+      "query": {
+        "destination": {
+          "id": "1036999",
+          "value": "Варшава, Мазовецкое воеводство, Польша",
+          "resolvedLocation": "CITY:1036999:UNKNOWN:UNKNOWN"
+        }
+      },
+      "searchResults": {
+        "totalCount": 951,
+        "results": [
+          {
+            "id": 439328,
+            "name": "Cloud Hostel",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "ul. Otwocka 1",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "03-759",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7,
+              "rating": "7,0",
+              "total": 54,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "4,2 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "12 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$29",
+                "exactCurrent": 29.05
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Warsaw",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": {
+              "lat": 52.257406,
+              "lon": 21.059374
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 6488753,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6490000/6488800/6488753/c0aee8d7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 677194,
+            "name": "Smart2Stay U Jakuba",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "al. Krakowska 236",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-219",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8,
+              "rating": "8,0",
+              "total": 33,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "6,3 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "2,1 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$32",
+                "exactCurrent": 31.89
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Окенче",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": {
+              "lat": 52.18854,
+              "lon": 20.95717
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 17804325,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/18000000/17810000/17804400/17804325/4259afb3_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 431392,
+            "name": "Moon Hostel",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "Foksal 16",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-372",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8,
+              "rating": "8,0",
+              "total": 115,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "0,8 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "7,9 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$34",
+                "exactCurrent": 34.07
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Сьрудместе-Пулноцне",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": {
+              "lat": 52.233718,
+              "lon": 21.020843
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 6034195,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6040000/6034200/6034195/cfaa853a_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 678803168,
+            "name": "Aparthostel Warszawa",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "Zabkowska 23/25/5",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "03-736",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 31,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "3,1 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "11 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$35",
+                "exactCurrent": 34.83
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Прага",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.25424,
+              "lon": 21.04252
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 21181349,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/22000000/21190000/21181400/21181349/dedb31a0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 606480,
+            "name": "Warsaw Hostel Centrum",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "ul. Emilii Plater 36 A",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-113",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.8,
+              "rating": "8,8",
+              "total": 150,
+              "scale": 10,
+              "badge": "fabulous",
+              "badgeText": "Превосходно"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "0,4 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "7,5 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$35",
+                "exactCurrent": 34.93
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Центр",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+            "coordinate": {
+              "lat": 52.234947,
+              "lon": 21.003167
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 15617306,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/16000000/15620000/15617400/15617306/c34770c0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 1344192256,
+            "name": "ibis budget Warszawa Centrum",
+            "starRating": 1,
+            "urls": {},
+            "address": {
+              "streetAddress": "Ul Zagorna 1",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-441",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.4,
+              "rating": "8,4",
+              "total": 83,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "2,4 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "8,0 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$35",
+                "exactCurrent": 35.22
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Сродмесце",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|HRW",
+            "coordinate": {
+              "lat": 52.22662,
+              "lon": 21.04196
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 41974758,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/42000000/41980000/41974800/41974758/268f679e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 1348390688,
+            "name": "ibis budget Warszawa Reduta",
+            "starRating": 1,
+            "urls": {},
+            "address": {
+              "streetAddress": "ul Bitwy Warszawskiej 16",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "2366",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 60,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "3,6 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "4,8 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$36",
+                "exactCurrent": 35.76
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Охота",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps",
+            "coordinate": {
+              "lat": 52.21443,
+              "lon": 20.96813
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 42105959,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/43000000/42110000/42106000/42105959/a67ed510_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 506725,
+            "name": "Hit Hotel",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "Ul. ks. I. Klopotowskiego 33",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "03-720",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.6,
+              "rating": "7,6",
+              "total": 182,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "2,6 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "10 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$36",
+                "exactCurrent": 35.86
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Прага",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.25222,
+              "lon": 21.03609
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 6037245,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6040000/6037300/6037245/cbf6e154_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 175309,
+            "name": "ibis Warszawa Centrum",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "Al. Solidarnooci 165",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00 876",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 616,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "1,8 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "7,5 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$37",
+                "exactCurrent": 37.49
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Миров",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|TESCO",
+            "coordinate": {
+              "lat": 52.23776,
+              "lon": 20.98252
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 483112,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/490000/483200/483112/ff397540_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 217278,
+            "name": "Best Western Hotel Portos",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "3a Mangalia Street",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-758",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 446,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "6,1 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "5,8 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$38",
+                "exactCurrent": 38.08
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Мокотов",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
+            "coordinate": {
+              "lat": 52.18646,
+              "lon": 21.04931
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 1074960,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1080000/1075000/1074960/03b7fcad_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 217275,
+            "name": "Hotel Aramis",
+            "starRating": 1,
+            "urls": {},
+            "address": {
+              "streetAddress": "Mangalia Street 3B",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "pl 02 758",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.6,
+              "rating": "7,6",
+              "total": 372,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "6,1 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "5,8 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$39",
+                "exactCurrent": 38.97,
+                "old": "$43"
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Мокотов",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.186157,
+              "lon": 21.04829
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 1074962,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1080000/1075000/1074962/aeec71bc_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 1653819648,
+            "name": "Warsaw -  Apartments Apartamenty Wilanów",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "ul. Bruzdowa 96D",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-991",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 6,
+              "rating": "6,0",
+              "total": 2,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "10 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "10 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$39",
+                "exactCurrent": 39.21
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Виланов",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "D13",
+            "coordinate": {
+              "lat": 52.17044,
+              "lon": 21.115344
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 51650614,
+            "vrBadge": "Апартаменты",
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/52000000/51660000/51650700/51650614/6cfd60f8_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 1064057504,
+            "name": "a&o Warsaw Wola",
+            "starRating": 0,
+            "urls": {},
+            "address": {
+              "streetAddress": "Kasprzaka 18-20",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "05-077",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 104,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "2,6 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "6,5 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$40",
+                "exactCurrent": 39.62
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Воля",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.22933,
+              "lon": 20.97267
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 33220547,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/34000000/33230000/33220600/33220547/93a1f7c6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 334268,
+            "name": "Old Town Kanonia Hostel & Apartments",
+            "starRating": 1.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "Jezuicka 2",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-281",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 172,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "1,6 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "9,3 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$40",
+                "exactCurrent": 39.68
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Олд-Таун",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.249294,
+              "lon": 21.013646
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 3024374,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/4000000/3030000/3024400/3024374/135837a6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 308915,
+            "name": "Première Classe Varsovie / Warszawa",
+            "starRating": 1,
+            "urls": {},
+            "address": {
+              "streetAddress": "UI. Towarowa 2",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-811",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.6,
+              "rating": "7,6",
+              "total": 630,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "1,7 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "6,3 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$40",
+                "exactCurrent": 39.87
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Миров",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.226192,
+              "lon": 20.98842
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 1635308,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1640000/1635400/1635308/88b72823_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 193389,
+            "name": "ibis Warszawa Ostrobramska",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "Ostrobramska 36",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "04-118",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 173,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "7,5 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "12 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$40",
+                "exactCurrent": 39.93
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Южная Прага (район)",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|TESCO",
+            "coordinate": {
+              "lat": 52.23289,
+              "lon": 21.11886
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 799723,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/800000/799800/799723/2ad36226_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 193130880,
+            "name": "Gordon Hotel",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "Aleja Krakowska 157a",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-180",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 6,
+              "rating": "6,0",
+              "total": 4,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "7,2 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "1,7 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$40",
+                "exactCurrent": 40.08
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Окенче",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": {
+              "lat": 52.181749,
+              "lon": 20.949069
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 6004090,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/7000000/6010000/6004100/6004090/b38249b8_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 670857,
+            "name": "LoftHotel Przychodnia",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "ul. Piekna 21",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-549",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.6,
+              "rating": "7,6",
+              "total": 44,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "1,4 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "6,7 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$40",
+                "exactCurrent": 40.41,
+                "old": "$45"
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Средместье-Полудневе",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.22326,
+              "lon": 21.01735
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 17569536,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/18000000/17570000/17569600/17569536/2ee2d01d_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 308914,
+            "name": "Campanile - Warszawa Varsovie",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "UI.Towarowa 2",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-811",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8,
+              "rating": "8,0",
+              "total": 705,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "1,7 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "6,3 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$41",
+                "exactCurrent": 40.88
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Миров",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|showFrequentlyAskedQuestionsenUS|TESCO",
+            "coordinate": {
+              "lat": 52.22613,
+              "lon": 20.98844
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 1637595,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1640000/1637600/1637595/450a18db_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 676084,
+            "name": "Smart2Stay Magnolia",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "al. Krakowska 236",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-219",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8,
+              "rating": "8,0",
+              "total": 35,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "6,3 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "2,1 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$41",
+                "exactCurrent": 41
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Окенче",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": {
+              "lat": 52.18854,
+              "lon": 20.95717
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 17772286,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/18000000/17780000/17772300/17772286/3009e0cc_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 373394,
+            "name": "Hotel Gromada Warszawa Centrum",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "Plac Powstancow Warszawy 2",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "00-030",
+              "region": "Masovia",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.6,
+              "rating": "7,6",
+              "total": 1168,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "0,4 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "7,7 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$42",
+                "exactCurrent": 42.09
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Сьрудместе-Пулноцне",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.234509,
+              "lon": 21.014007
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 973301,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/980000/973400/973301/c022c060_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 1653739200,
+            "name": "Warsaw - Apartments Apartamenty Sadyba",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "ul. Augustówka 9",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-981",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.4,
+              "rating": "8,4",
+              "total": 13,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "7,4 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "7,6 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$43",
+                "exactCurrent": 42.65
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Аугустувка",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "D13",
+            "coordinate": {
+              "lat": 52.183123,
+              "lon": 21.077105
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 51648100,
+            "vrBadge": "Апарт-отель",
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/52000000/51650000/51648100/51648100/f9ac198e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 1181667264,
+            "name": "Warsaw Airport ApartHotel",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "locality": "Warsaw",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.6,
+              "rating": "8,6",
+              "total": 10,
+              "scale": 10,
+              "badge": "fabulous",
+              "badgeText": "Превосходно"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "9,4 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "4,3 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$43",
+                "exactCurrent": 42.67,
+                "old": "$47"
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Урсынов",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "newhotel|DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.1512,
+              "lon": 21.0215
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 36895852,
+            "vrBadge": "Квартира",
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/37000000/36900000/36895900/36895852/fd9a3238_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 395239040,
+            "name": "B&B Hotel Warszawa-Okecie",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "Aleja Krakowska 193",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-180",
+              "region": "",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.6,
+              "rating": "8,6",
+              "total": 147,
+              "scale": 10,
+              "badge": "fabulous",
+              "badgeText": "Превосходно"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "7,3 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "1,7 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$43",
+                "exactCurrent": 43.06
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Окенче",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 52.1813,
+              "lon": 20.9487
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 12319970,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12320000/12320000/12319970/a8ca3092_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 1361841088,
+            "name": "Green Wood Apartment Stara Ochota, 6th floor - no lift",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "17 Maurycego Mochnackiego",
+              "extendedAddress": "",
+              "locality": "Warsaw",
+              "postalCode": "02-041",
+              "region": "mazowieckie",
+              "countryName": "Poland",
+              "countryCode": "pl",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.4,
+              "rating": "8,4",
+              "total": 12,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "2,5 км"
+              },
+              {
+                "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                "distance": "5,3 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$43",
+                "exactCurrent": 43.4
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Охота",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13",
+            "coordinate": {
+              "lat": 52.217388,
+              "lon": 20.985996
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 42526284,
+            "vrBadge": "Апартаменты",
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/43000000/42530000/42526300/42526284/79fa4fe7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          }
+        ],
+        "pagination": {
+          "currentPage": 1,
+          "pageGroup": "EXPEDIA_IN_POLYGON",
+          "nextPageStartIndex": 25,
+          "nextPageNumber": 2,
+          "nextPageGroup": "EXPEDIA_IN_POLYGON"
+        }
+      },
+      "sortResults": {
+        "options": [
+          {
+            "label": "Звездность",
+            "itemMeta": "star",
+            "choices": [
+              {
+                "label": "Звезды (по убыванию)",
+                "value": "STAR_RATING_HIGHEST_FIRST",
+                "selected": false
+              },
+              {
+                "label": "Звезды (по возрастанию)",
+                "value": "STAR_RATING_LOWEST_FIRST",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": []
+          },
+          {
+            "label": "Расстояние",
+            "itemMeta": "distance",
+            "choices": [
+              {
+                "label": "Расстояние до центра города",
+                "value": "DISTANCE_FROM_LANDMARK",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": [
+              {
+                "label": "Что посмотреть",
+                "itemMeta": "landmarks",
+                "choices": [
+                  {
+                    "label": "Центр города",
+                    "id": 1036999
+                  },
+                  {
+                    "label": "Torwar Hall (стадион)",
+                    "id": 1694270
+                  },
+                  {
+                    "label": "Банковская площадь",
+                    "id": 10673174
+                  },
+                  {
+                    "label": "Варшавский университет",
+                    "id": 1647959
+                  },
+                  {
+                    "label": "Выставочный центр EXPO XXI",
+                    "id": 1692170
+                  },
+                  {
+                    "label": "Выставочный центр Palace of Culture and Science",
+                    "id": 1693399
+                  },
+                  {
+                    "label": "Государственный стадион",
+                    "id": 1647960
+                  },
+                  {
+                    "label": "Дворец Вилянов",
+                    "id": 1647967
+                  },
+                  {
+                    "label": "Золотые террасы",
+                    "id": 1647964
+                  },
+                  {
+                    "label": "Ипподром Sluzewiec",
+                    "id": 1720219
+                  },
+                  {
+                    "label": "Мемориальный центр детского здоровья",
+                    "id": 11129838
+                  },
+                  {
+                    "label": "Польский театр в Варшаве",
+                    "id": 10623330
+                  },
+                  {
+                    "label": "Посольство США",
+                    "id": 1803150
+                  },
+                  {
+                    "label": "Рынок Старого города",
+                    "id": 1693503
+                  },
+                  {
+                    "label": "Рыночная площадь Старого города",
+                    "id": 1647958
+                  },
+                  {
+                    "label": "Театр Stodoła",
+                    "id": 10656934
+                  },
+                  {
+                    "label": "Торговый центр Arkadia Shopping Mall",
+                    "id": 1692168
+                  },
+                  {
+                    "label": "Улица Новый Свет",
+                    "id": 1692162
+                  },
+                  {
+                    "label": "Центр науки \"Коперник\"",
+                    "id": 1785648
+                  },
+                  {
+                    "label": "Центральная клиническая больница при Министерстве внутренних дел",
+                    "id": 10672818
+                  }
+                ]
+              },
+              {
+                "label": "Вокзалы и станции",
+                "itemMeta": "stations",
+                "choices": [
+                  {
+                    "label": "Warsaw Chopin Airport Station",
+                    "id": 1694633984
+                  },
+                  {
+                    "label": "Warsaw Sluzewiec Station",
+                    "id": 1810554880
+                  },
+                  {
+                    "label": "Warszawa Srodmiescie WKD Station",
+                    "id": -1952198656
+                  },
+                  {
+                    "label": "Станция Warszawa Gdańska",
+                    "id": 1707286
+                  },
+                  {
+                    "label": "Станция Warszawa Ochota",
+                    "id": 1709016
+                  },
+                  {
+                    "label": "Станция Warszawa Praga",
+                    "id": 1707280
+                  },
+                  {
+                    "label": "Станция Warszawa Ursus",
+                    "id": 1707274
+                  },
+                  {
+                    "label": "Станция Warszawa Wschodnia",
+                    "id": 1709017
+                  },
+                  {
+                    "label": "Станция Warszawa Zachodnia",
+                    "id": 1708994
+                  },
+                  {
+                    "label": "Станция Warszawa Śródmieście",
+                    "id": 1715003
+                  },
+                  {
+                    "label": "Станция Центрум",
+                    "id": 11032884
+                  },
+                  {
+                    "label": "Центральный вокзал Варшавы",
+                    "id": 1709015
+                  }
+                ]
+              },
+              {
+                "label": "Аэропорты",
+                "itemMeta": "airports",
+                "choices": [
+                  {
+                    "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+                    "id": 1637027
+                  },
+                  {
+                    "label": "Модлин (WMI-Варшава-Модлин, Мазовия)",
+                    "id": 1725812
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Рейтинг гостей",
+            "itemMeta": "rating",
+            "choices": [
+              {
+                "label": "Рейтинг гостей",
+                "value": "GUEST_RATING",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": []
+          },
+          {
+            "label": "Цена",
+            "itemMeta": "price",
+            "selectedChoiceLabel": "Цена (по возрастанию)",
+            "choices": [
+              {
+                "label": "Цена (по убыванию)",
+                "value": "PRICE_HIGHEST_FIRST",
+                "selected": false
+              },
+              {
+                "label": "Цена (по возрастанию)",
+                "value": "PRICE",
+                "selected": true
+              }
+            ],
+            "enhancedChoices": []
+          }
+        ],
+        "distanceOptionLandmarkId": 1036999
+      },
+      "filters": {
+        "applied": false,
+        "name": {
+          "item": {
+            "value": ""
+          },
+          "autosuggest": {
+            "additionalUrlParams": {
+              "resolved-location": "CITY:1036999:UNKNOWN:UNKNOWN",
+              "q-destination": "Варшава, Мазовецкое воеводство, Польша",
+              "destination-id": "1036999"
+            }
+          }
+        },
+        "starRating": {
+          "applied": false,
+          "items": [
+            {
+              "value": 5
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 1
+            }
+          ]
+        },
+        "guestRating": {
+          "range": {
+            "min": {
+              "defaultValue": 0
+            },
+            "max": {
+              "defaultValue": 10
+            }
+          }
+        },
+        "landmarks": {
+          "selectedOrder": [],
+          "items": [
+            {
+              "label": "Центр города",
+              "value": "1036999"
+            },
+            {
+              "label": "Варшавский аэропорт им. Фредерика Шопена (WAW)",
+              "value": "1637027"
+            },
+            {
+              "label": "Центральный вокзал Варшавы",
+              "value": "1709015"
+            },
+            {
+              "label": "Рыночная площадь Старого города",
+              "value": "1647958"
+            },
+            {
+              "label": "Выставочный центр EXPO XXI",
+              "value": "1692170"
+            },
+            {
+              "label": "Модлин (WMI-Варшава-Модлин, Мазовия)",
+              "value": "1725812"
+            },
+            {
+              "label": "Посольство США",
+              "value": "1803150"
+            },
+            {
+              "label": "Выставочный центр Palace of Culture and Science",
+              "value": "1693399"
+            },
+            {
+              "label": "Государственный стадион",
+              "value": "1647960"
+            },
+            {
+              "label": "Станция Warszawa Zachodnia",
+              "value": "1708994"
+            },
+            {
+              "label": "Torwar Hall (стадион)",
+              "value": "1694270"
+            },
+            {
+              "label": "Театр Stodoła",
+              "value": "10656934"
+            },
+            {
+              "label": "Золотые террасы",
+              "value": "1647964"
+            },
+            {
+              "label": "Центральная клиническая больница при Министерстве внутренних дел",
+              "value": "10672818"
+            },
+            {
+              "label": "Улица Новый Свет",
+              "value": "1692162"
+            },
+            {
+              "label": "Рынок Старого города",
+              "value": "1693503"
+            },
+            {
+              "label": "Центр науки \"Коперник\"",
+              "value": "1785648"
+            },
+            {
+              "label": "Польский театр в Варшаве",
+              "value": "10623330"
+            },
+            {
+              "label": "Банковская площадь",
+              "value": "10673174"
+            },
+            {
+              "label": "Торговый центр Arkadia Shopping Mall",
+              "value": "1692168"
+            }
+          ],
+          "distance": []
+        },
+        "neighbourhood": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Олд-Таун",
+              "value": "1693415"
+            },
+            {
+              "label": "Центр",
+              "value": "1637670"
+            },
+            {
+              "label": "Окенче",
+              "value": "11047442"
+            },
+            {
+              "label": "Южная Прага (район)",
+              "value": "1707278"
+            },
+            {
+              "label": "Вавр",
+              "value": "1770362"
+            },
+            {
+              "label": "Мокотов",
+              "value": "1707276"
+            },
+            {
+              "label": "Сродмесце",
+              "value": "1692247"
+            },
+            {
+              "label": "Прага",
+              "value": "11047443"
+            },
+            {
+              "label": "Варшавская Италия",
+              "value": "1692181"
+            },
+            {
+              "label": "Саска Кепа",
+              "value": "1693535"
+            },
+            {
+              "label": "Воля",
+              "value": "1692182"
+            },
+            {
+              "label": "Жолибож",
+              "value": "1693452"
+            },
+            {
+              "label": "Охота",
+              "value": "1707277"
+            },
+            {
+              "label": "Урсынов",
+              "value": "1693421"
+            },
+            {
+              "label": "Прага Пулноц",
+              "value": "1692178"
+            },
+            {
+              "label": "Фаленты",
+              "value": "11046947"
+            },
+            {
+              "label": "Виланов",
+              "value": "1692180"
+            },
+            {
+              "label": "Таргувек",
+              "value": "1693530"
+            },
+            {
+              "label": "Урсус",
+              "value": "1692179"
+            },
+            {
+              "label": "Таргувек",
+              "value": "10873653"
+            },
+            {
+              "label": "Муранов",
+              "value": "1693522"
+            },
+            {
+              "label": "Повишле",
+              "value": "1693518"
+            },
+            {
+              "label": "Мэримонт",
+              "value": "1693528"
+            },
+            {
+              "label": "Грахов",
+              "value": "1752329"
+            },
+            {
+              "label": "Раковец",
+              "value": "10561816"
+            },
+            {
+              "label": "Повянзки",
+              "value": "1693519"
+            },
+            {
+              "label": "Коло",
+              "value": "1693541"
+            },
+            {
+              "label": "Рыбе",
+              "value": "10385029"
+            },
+            {
+              "label": "Секерки",
+              "value": "1752335"
+            },
+            {
+              "label": "Нове-Място",
+              "value": "1752332"
+            },
+            {
+              "label": "Средместье-Полудневе",
+              "value": "12496282"
+            },
+            {
+              "label": "Сельце",
+              "value": "12477812"
+            },
+            {
+              "label": "Новая Прага",
+              "value": "12489916"
+            },
+            {
+              "label": "Сьрудместе-Пулноцне",
+              "value": "12493211"
+            },
+            {
+              "label": "Аугустувка",
+              "value": "12465280"
+            },
+            {
+              "label": "Миров",
+              "value": "12496525"
+            }
+          ]
+        },
+        "accommodationType": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Агротуризм",
+              "value": "40"
+            },
+            {
+              "label": "Апарт-отели",
+              "value": "20"
+            },
+            {
+              "label": "Виллы",
+              "value": "14"
+            },
+            {
+              "label": "Гостевые дома",
+              "value": "30"
+            },
+            {
+              "label": "Дома для отпуска",
+              "value": "4"
+            },
+            {
+              "label": "Капсульные отели",
+              "value": "43"
+            },
+            {
+              "label": "Квартиры ",
+              "value": "15"
+            },
+            {
+              "label": "Мини-отели",
+              "value": "5"
+            },
+            {
+              "label": "Отели",
+              "value": "1"
+            },
+            {
+              "label": "Пансионы",
+              "value": "25"
+            },
+            {
+              "label": "Хостелы",
+              "value": "12"
+            }
+          ]
+        },
+        "facilities": {
+          "applied": false,
+          "items": [
+            {
+              "label": "В цену включен Wi-Fi",
+              "value": "527"
+            },
+            {
+              "label": "Для некурящих",
+              "value": "529"
+            },
+            {
+              "label": "Завтрак включен",
+              "value": "2048"
+            },
+            {
+              "label": "Казино",
+              "value": "2112"
+            },
+            {
+              "label": "Круглосуточная стойка регистрации",
+              "value": "2063"
+            },
+            {
+              "label": "Парковка",
+              "value": "134234112"
+            },
+            {
+              "label": "Пункт зарядки электромобилей",
+              "value": "1073743315"
+            },
+            {
+              "label": "Разрешено проживание с домашними животными",
+              "value": "64"
+            },
+            {
+              "label": "С автобусом до горнолыжных трасс",
+              "value": "531"
+            },
+            {
+              "label": "С баром",
+              "value": "515"
+            },
+            {
+              "label": "С бассейном",
+              "value": "128"
+            },
+            {
+              "label": "С бизнес-услугами",
+              "value": "519"
+            },
+            {
+              "label": "С ванной в номере",
+              "value": "517"
+            },
+            {
+              "label": "С детскими кроватками",
+              "value": "525"
+            },
+            {
+              "label": "С доступом в интернет",
+              "value": "8"
+            },
+            {
+              "label": "С зонами для курения",
+              "value": "537"
+            },
+            {
+              "label": "С конференц-залами",
+              "value": "1"
+            },
+            {
+              "label": "С кухней",
+              "value": "32"
+            },
+            {
+              "label": "Со смежными номерами",
+              "value": "523"
+            },
+            {
+              "label": "Со спа-салоном",
+              "value": "539"
+            },
+            {
+              "label": "Со спортзалом",
+              "value": "2"
+            },
+            {
+              "label": "С присмотром за детьми",
+              "value": "521"
+            },
+            {
+              "label": "С рестораном",
+              "value": "256"
+            },
+            {
+              "label": "С трансфером до аэропорта",
+              "value": "513"
+            }
+          ]
+        },
+        "accessibility": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Безбарьерный доступ",
+              "value": "65536"
+            },
+            {
+              "label": "Безбарьерный душ",
+              "value": "262144"
+            },
+            {
+              "label": "Ванная для маломобильных гостей",
+              "value": "131072"
+            },
+            {
+              "label": "Номера для маломобильных гостей",
+              "value": "541"
+            },
+            {
+              "label": "Оборудование для слабослышащих",
+              "value": "2097152"
+            },
+            {
+              "label": "Парковка, приспособленная для маломобильных гостей",
+              "value": "524288"
+            },
+            {
+              "label": "Тактильные указатели со шрифтом Брайля или рельефным шрифтом",
+              "value": "4194304"
+            },
+            {
+              "label": "Удобства в номерах для маломобильных гостей",
+              "value": "1048576"
+            }
+          ]
+        },
+        "themesAndTypes": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Бутик",
+              "value": "4"
+            },
+            {
+              "label": "Для активного отдыха",
+              "value": "18"
+            },
+            {
+              "label": "Для гольфа",
+              "value": "26"
+            },
+            {
+              "label": "Для деловых людей",
+              "value": "14"
+            },
+            {
+              "label": "Для лыжного спорта",
+              "value": "28"
+            },
+            {
+              "label": "Для семейного отдыха",
+              "value": "25"
+            },
+            {
+              "label": "Исторические",
+              "value": "2"
+            },
+            {
+              "label": "Класса «люкс»",
+              "value": "15"
+            },
+            {
+              "label": "На виноградниках",
+              "value": "19"
+            },
+            {
+              "label": "Пляжные",
+              "value": "6"
+            },
+            {
+              "label": "С казино",
+              "value": "8"
+            },
+            {
+              "label": "Спа",
+              "value": "27"
+            }
+          ]
+        },
+        "price": {
+          "label": "Стоимость (общая)",
+          "range": {
+            "min": {
+              "defaultValue": 0
+            },
+            "max": {
+              "defaultValue": 500
+            },
+            "increments": 5
+          },
+          "multiplier": 1
+        },
+        "welcomeRewards": {
+          "label": "Hotels.com™ Rewards",
+          "items": [
+            {
+              "label": "Получите штампы",
+              "value": "collect"
+            },
+            {
+              "label": "Используйте бонусные* сутки",
+              "value": "redeem"
+            }
+          ]
+        }
+      },
+      "pointOfSale": {
+        "currency": {
+          "code": "USD",
+          "symbol": "$",
+          "separators": ",.",
+          "format": "${0}"
+        }
+      },
+      "miscellaneous": {
+        "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1036999&hotelIds=439328,677194,431392,678803168,606480,1344192256,1348390688,506725,175309,217278,217275,1653819648,1064057504,334268,308915,193389,193130880,670857,308914,676084,373394,1653739200,1181667264,395239040,1361841088&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=32e2b348-9d9a-4501-9d30-8ae96dd64b28&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=ru_RU&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=ru.hotels.com&userIP=98.170.148.93&action=pageview&publisher=expedia&programId=1",
+        "showLegalInfoForStrikethroughPrices": true,
+        "legalInfoForStrikethroughPrices": "Зачеркнутая цена основана на стандартном тарифе в нашем приложении, установленном и предоставленном объектом размещения."
+      },
+      "pageInfo": {
+        "pageType": "dateless"
+      }
+    },
+    "common": {
+      "pointOfSale": {
+        "numberSeparators": " ,",
+        "brandName": "Hotels.com"
+      },
+      "tracking": {
+        "omniture": {
+          "s.prop33": "D=v33",
+          "s.prop32": "D=v43",
+          "s.prop74": "search result without dates | ms shown | N",
+          "s.products": "LOCAL;6488753,LOCAL;17804325,LOCAL;6034195",
+          "s.eVar16": "Mob :: aApp",
+          "s.eVar40": "D=v0",
+          "s.eVar41": "USD",
+          "s.eVar63": "7899a2f3-380a-4e1d-b593-dcb7bb83b518",
+          "s.eVar42": "dateless",
+          "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar43": "ru_RU|HCOM_RU|ru.hotels.com",
+          "s.eVar2": "Варшава, Мазовецкое воеводство, Польша",
+          "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+          "s.eVar7": "",
+          "s.server": "ru.hotels.com",
+          "s.eVar6": "1036999",
+          "s.prop29": "D=v42",
+          "s.prop27": "32e2b348-9d9a-4501-9d30-8ae96dd64b28",
+          "s.eVar9": "Price - low to high",
+          "s.eVar69": "Mob :: aApp",
+          "s.currencyCode": "USD",
+          "s.eVar26": "US:GA:MACON:503",
+          "s.eVar29": "Mob :: aApp",
+          "s.prop9": "951",
+          "s.eVar95": "Unknown",
+          "s.prop7": "927",
+          "s.eVar31": "D=v0",
+          "s.eVar32": "D=v0",
+          "s.eVar33": "search result without dates",
+          "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.0,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9508:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:006.002,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
+          "s.eVar13": "389273",
+          "s.events": "event324,event320,event319,event318",
+          "s.prop18": "D=v6",
+          "s.prop5": "389273",
+          "s.prop15": "",
+          "s.prop3": "Варшава, Мазовецкое воеводство, Польша",
+          "s.prop14": "D=v7",
+          "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar93": "aws.us-east-1.unknown",
+          "s.prop2": "Price - low to high"
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,18 @@
+import os
+from datetime import datetime, timedelta
+
 import telebot
+from dotenv import load_dotenv, find_dotenv
 
-with open('API/secret_keys.txt', 'r') as file:
-    data = file.readlines()
+load_dotenv(find_dotenv())
 
-__token = data[0].strip()
-RapidAPI_Key = data[1].strip()
+__token = os.environ.get("TOKEN")
+RapidAPI_Key = os.environ.get("RapidAPI_Key")
 
-BOT = telebot.TeleBot(__token)
+
+bot = telebot.TeleBot(__token)
+
+history = dict()
+
+tomorrow = (datetime.today() + timedelta(days=1)).strftime('%Y-%m-%d')
+next_day = (datetime.today() + timedelta(days=2)).strftime('%Y-%m-%d')

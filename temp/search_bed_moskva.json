@@ -1,0 +1,207 @@
+{
+  "term": "москва",
+  "moresuggestions": 10,
+  "autoSuggestInstance": null,
+  "trackingID": "c7db3f767d6d410d88fe3ce0f75612ca",
+  "misspellingfallback": false,
+  "suggestions": [
+    {
+      "group": "CITY_GROUP",
+      "entities": []
+    },
+    {
+      "group": "HOTEL_GROUP",
+      "entities": [
+        {
+          "geoId": "890376",
+          "destinationId": "204643",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.822514,
+          "longitude": 37.645828,
+          "searchDetail": null,
+          "caption": "Гостиница «Космос», <span class='highlighted'>Москва</span>, Россия",
+          "name": "Гостиница «Космос»"
+        },
+        {
+          "geoId": "5650275",
+          "destinationId": "426905",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.74644,
+          "longitude": 37.53467,
+          "searchDetail": null,
+          "caption": "NOVOTEL <span class='highlighted'>Москва</span> Сити, Москва, Россия",
+          "name": "NOVOTEL Москва Сити"
+        },
+        {
+          "geoId": "915009",
+          "destinationId": "326231",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.7896,
+          "longitude": 37.74935,
+          "searchDetail": null,
+          "caption": "Отель «Измайлово Альфа», <span class='highlighted'>Москва</span>, Россия",
+          "name": "Отель «Измайлово Альфа»"
+        },
+        {
+          "geoId": "2794444",
+          "destinationId": "323563",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.791045,
+          "longitude": 37.747423,
+          "searchDetail": null,
+          "caption": "Отель Вега Измайлово, <span class='highlighted'>Москва</span>, Россия",
+          "name": "Отель Вега Измайлово"
+        },
+        {
+          "geoId": "9145",
+          "destinationId": "203480",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.7496,
+          "longitude": 37.58351,
+          "searchDetail": null,
+          "caption": "АЗИМУТ Отель Смоленская <span class='highlighted'>Москва</span>, Москва, Россия",
+          "name": "АЗИМУТ Отель Смоленская Москва"
+        },
+        {
+          "geoId": "26199",
+          "destinationId": "219422",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.74276,
+          "longitude": 37.5683,
+          "searchDetail": null,
+          "caption": "Гостиница \"Рэдиссон Славянская\", <span class='highlighted'>Москва</span>, Россия",
+          "name": "Гостиница \"Рэдиссон Славянская\""
+        },
+        {
+          "geoId": "1291435",
+          "destinationId": "444930",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.78904,
+          "longitude": 37.7474,
+          "searchDetail": null,
+          "caption": "Гостиница «Бета», Измайлово, <span class='highlighted'>Москва</span>, Россия",
+          "name": "Гостиница «Бета», Измайлово"
+        },
+        {
+          "geoId": "520631",
+          "destinationId": "309618",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.961163,
+          "longitude": 37.413766,
+          "searchDetail": null,
+          "caption": "Парк Инн от Рэдиссон Аэропорт Шереметьево <span class='highlighted'>Москва</span>, Химки, Московская область, Подмосковье (Московская область), Россия",
+          "name": "Парк Инн от Рэдиссон Аэропорт Шереметьево Москва"
+        },
+        {
+          "geoId": "21227135",
+          "destinationId": "680268320",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.451951,
+          "longitude": 37.858419,
+          "searchDetail": null,
+          "caption": "ibis <span class='highlighted'>Москва</span> Аэропорт Домодедово, Домодедово, Московская область, Подмосковье (Московская область), Россия",
+          "name": "ibis Москва Аэропорт Домодедово"
+        },
+        {
+          "geoId": "7736",
+          "destinationId": "127114",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.78468,
+          "longitude": 37.62278,
+          "searchDetail": null,
+          "caption": "АЗИМУТ Отель Олимпик <span class='highlighted'>Москва</span>, Москва, Россия",
+          "name": "АЗИМУТ Отель Олимпик Москва"
+        },
+        {
+          "geoId": "4423878",
+          "destinationId": "475657",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.84933,
+          "longitude": 37.58651,
+          "searchDetail": null,
+          "caption": "Отель «Восход», <span class='highlighted'>Москва</span>, Россия",
+          "name": "Отель «Восход»"
+        },
+        {
+          "geoId": "520585",
+          "destinationId": "114485",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.7909,
+          "longitude": 37.7458,
+          "searchDetail": null,
+          "caption": "Отель «Измайлово Гамма», <span class='highlighted'>Москва</span>, Россия",
+          "name": "Отель «Измайлово Гамма»"
+        },
+        {
+          "geoId": "21490108",
+          "destinationId": "688683456",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.605972,
+          "longitude": 37.290673,
+          "searchDetail": null,
+          "caption": "Отель DoubleTree by Hilton, <span class='highlighted'>Москва</span>, аэропорт Внуково, Москва, Россия",
+          "name": "Отель DoubleTree by Hilton, Москва, аэропорт Внуково"
+        },
+        {
+          "geoId": "3419830",
+          "destinationId": "560003",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.820497,
+          "longitude": 37.647529,
+          "searchDetail": null,
+          "caption": "Hotel Я , <span class='highlighted'>Москва</span>, Россия",
+          "name": "Hotel Я "
+        },
+        {
+          "geoId": "1141448",
+          "destinationId": "224977",
+          "landmarkCityDestinationId": null,
+          "type": "HOTEL",
+          "redirectPage": "DEFAULT_PAGE",
+          "latitude": 55.65085,
+          "longitude": 37.48422,
+          "searchDetail": null,
+          "caption": "Отель «Салют», <span class='highlighted'>Москва</span>, Россия",
+          "name": "Отель «Салют»"
+        }
+      ]
+    },
+    {
+      "group": "LANDMARK_GROUP",
+      "entities": []
+    },
+    {
+      "group": "TRANSPORT_GROUP",
+      "entities": []
+    }
+  ],
+  "geocodeFallback": false
+}
