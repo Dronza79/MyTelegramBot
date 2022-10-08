@@ -3,7 +3,7 @@ import time
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from api.big_text import ANSWER_LP_FOTO, ATTENTION
-from api.handler_reqest_api_hotels import handler_city, display_result
+from api.handler_reqest_api_hotels import handler_city, display_result, give_list_foto
 from loader import bot, history
 
 
@@ -13,7 +13,7 @@ class LowPrice:
         self.city = city
         self.city_id = None
         self.number_hotels = None
-        self.number_photo = None
+        self.list_foto = []
 
     def __str__(self):
         temp = 'Удача' if self.city_id else 'Неудача'
@@ -95,7 +95,6 @@ def get_answer(call):
 def get_photos(message):
     num_foto = message.text
     user = message.from_user.id
-    poll = history[user][len(history[user]) - 1]
     if not num_foto.isdigit():
         msg = bot.send_message(message.from_user.id, text='Ошибка. Должно быть число')
         bot.register_next_step_handler(msg, get_photos)
@@ -105,5 +104,12 @@ def get_photos(message):
         bot.register_next_step_handler(msg, get_photos)
         return
     poll = history[user][len(history[user]) - 1]
-    poll.number_photo = num_foto
-    bot.send_message(message.from_user.id, text=poll)
+    for hotel, string in display_result(poll.city_id, poll.number_hotels, sort="PRICE"):
+        list_foto = give_list_foto(hotel, num_foto)
+        poll.list_foto.append(list_foto)
+        for foto in list_foto:
+            bot.send_message(user, text=foto)
+        bot.send_message(user, text=string)
+    return_key = InlineKeyboardMarkup()
+    return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
+    bot.send_message(user, text='Доклад закончил...', reply_markup=return_key)
