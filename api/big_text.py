@@ -22,14 +22,9 @@ GEN_KEYB = {
     'go': 'Начать работу'
 }
 
-ANSWER_LP_FOTO = {
-    'yes_lp': 'да',
-    'not_lp': 'нет'
-}
-
-ANSWER_HP_FOTO = {
-    'yes_hp': 'да',
-    'not_hp': 'нет'
+ANSWER = {
+    'yes': 'да',
+    'not': 'нет'
 }
 
 ATTENTION = (

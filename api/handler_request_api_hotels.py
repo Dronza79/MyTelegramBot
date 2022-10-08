@@ -23,6 +23,7 @@ def handler_city(city):
 
 
 def display_result(town_id, amount_htls, sort):
+    print(f'ИД города: {town_id}, кол-во отелей: {amount_htls}, условие сортировки: {sort}')
     url = "https://hotels4.p.rapidapi.com/properties/list"
     querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amount_htls, "checkIn": tomorrow,
                    "checkOut": next_day, "adults1": "1", "sortOrder": sort, "locale": "ru_RU", "currency": "USD"}

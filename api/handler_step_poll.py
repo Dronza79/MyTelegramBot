@@ -1,17 +1,25 @@
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-from api.big_text import ANSWER_HP_FOTO
+
 from loader import bot, history
+from api.big_text import ANSWER
 from api.handler_request_api_hotels import handler_city, display_result, give_list_foto
 
 
-TypicalCommand
+class TypeCommand:
+    def __init__(self, fst, snd):
+        self.fst = fst
+        self.snd = snd
+
+
+handler_command = TypeCommand  # Переназначение происходит при каждой команде
+sort_filter = None  # сортировочный фильтр, переназначается в каждой команде
 
 
 def get_city(message):  # получаем город
     user = message.chat.id
     date = message.date
     city = message.text
-    poll = HighPrice(date, city)
+    poll = handler_command(date, city)
     if user in history:
         user = history[user]
         user.append(poll)
@@ -43,11 +51,25 @@ def get_number_hotels(message):  # получаем количество оте�
         return
     poll = history[user][len(history[user]) - 1]
     poll.number_hotels = number_hotels
-    answer = InlineKeyboardMarkup()
-    btns = [InlineKeyboardButton(text=value, callback_data=key) for key, value in ANSWER_HP_FOTO.items()]
-    answer.row(btns[0], btns[1])
-    bot.send_message(message.from_user.id, 'Показать фото?', reply_markup=answer)
+    choice = InlineKeyboardMarkup()
+    btns = [InlineKeyboardButton(text=value, callback_data=key) for key, value in ANSWER.items()]
+    choice.row(btns[0], btns[1])
+    bot.send_message(message.from_user.id, 'Показать фото?', reply_markup=choice)
 
+
+@bot.callback_query_handler(func=lambda call: call.data in ['yes', 'not'])
+def get_answer(call):
+    user = call.from_user.id
+    poll = history[user][len(history[user]) - 1]
+    if call.data == 'yes':
+        msg = bot.send_message(call.from_user.id, text='Укажите количество (не более 5):')
+        bot.register_next_step_handler(msg, get_photos)
+    else:
+        for hotel, string in display_result(poll.city_id, poll.number_hotels, sort_filter):
+            bot.send_message(user, text=string)
+        return_key = InlineKeyboardMarkup()
+        return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
+        bot.send_message(user, text='Доклад закончил...', reply_markup=return_key)
 
 
 def get_photos(message):
@@ -62,7 +84,7 @@ def get_photos(message):
         bot.register_next_step_handler(msg, get_photos)
         return
     poll = history[user][len(history[user]) - 1]
-    for hotel, string in display_result(poll.city_id, poll.number_hotels, sort="PRICE"):
+    for hotel, string in display_result(poll.city_id, poll.number_hotels, sort_filter):
         list_foto = give_list_foto(hotel, num_foto)
         poll.list_foto.append(list_foto)
         for foto in list_foto:
