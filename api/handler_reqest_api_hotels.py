@@ -1,6 +1,4 @@
 import json
-from string import ascii_letters
-import re
 
 import requests
 from loader import RapidAPI_Key, tomorrow, next_day
@@ -24,9 +22,9 @@ def handler_city(city):
     return index
 
 
-def display_result(town_id, amout_htls, sort):
+def display_result(town_id, amount_htls, sort):
     url = "https://hotels4.p.rapidapi.com/properties/list"
-    querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amout_htls, "checkIn": tomorrow,
+    querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amount_htls, "checkIn": tomorrow,
                    "checkOut": next_day, "adults1": "1", "sortOrder": sort, "locale": "ru_RU", "currency": "USD"}
     headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
     response = requests.request("GET", url, headers=headers, params=querystring)
@@ -44,7 +42,7 @@ def display_result(town_id, amout_htls, sort):
 
 
 def give_list_foto(id_hotel, amount):
-    num = amount - 1
+    num = int(amount)
     list_foto = []
     url = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
     querystring = {"id": id_hotel}
