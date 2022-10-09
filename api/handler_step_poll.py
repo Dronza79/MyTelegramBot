@@ -2,7 +2,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMedia
 
 from loader import bot, history
 from api.big_text import ANSWER
-from api.handler_request_api_hotels import display_result, give_list_foto
+from api.handler_request_api_hotels import display_result_getting_list_hotels, give_list_photos_of_hotel
 
 
 def get_number_hotels(message):  # получаем количество отелей
@@ -12,8 +12,8 @@ def get_number_hotels(message):  # получаем количество оте�
         msg = bot.send_message(message.from_user.id, text='Ошибка. Должна быть цифра')
         bot.register_next_step_handler(msg, get_number_hotels)
         return
-    if int(number_hotels) > 5:
-        msg = bot.send_message(message.from_user.id, text='Ошибка. Должно быть не более 5')
+    if int(number_hotels) > 25:
+        msg = bot.send_message(message.from_user.id, text='Ошибка. Должно быть не более 25')
         bot.register_next_step_handler(msg, get_number_hotels)
         return
     poll = history[user][len(history[user]) - 1]
@@ -32,7 +32,11 @@ def get_answer(call):
         msg = bot.send_message(call.from_user.id, text='Укажите количество (не более 10):')
         bot.register_next_step_handler(msg, get_photos)
     else:
-        for hotel, string in display_result(poll.city_id, poll.number_hotels, poll.sort_filter):
+        for hotel, string in display_result_getting_list_hotels(poll.city_id,
+                                                                poll.number_hotels,
+                                                                poll.sort_filter,
+                                                                poll.price_min,
+                                                                poll.price_max):
             bot.send_message(user, text=string)
         return_key = InlineKeyboardMarkup()
         return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
@@ -51,8 +55,13 @@ def get_photos(message):
         bot.register_next_step_handler(msg, get_photos)
         return
     poll = history[user][len(history[user]) - 1]
-    for hotel, string in display_result(poll.city_id, poll.number_hotels, poll.sort_filter):
-        hotel_foto = give_list_foto(hotel, num_foto)
+    for hotel, string in display_result_getting_list_hotels(poll.city_id,
+                                                            poll.number_hotels,
+                                                            poll.sort_filter,
+                                                            poll.price_min,
+                                                            poll.price_max
+                                                            ):
+        hotel_foto = give_list_photos_of_hotel(hotel, num_foto)
         print(f'{hotel}: {hotel_foto}')
         poll.list_foto[hotel] = hotel_foto
         if not hotel_foto:
