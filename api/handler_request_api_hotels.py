@@ -23,6 +23,7 @@ def handler_city(city):
 
 
 def display_result(town_id, amount_htls, sort):
+    print(f'ИД города: {town_id}, кол-во отелей: {amount_htls}, условие сортировки: {sort}')
     url = "https://hotels4.p.rapidapi.com/properties/list"
     querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amount_htls, "checkIn": tomorrow,
                    "checkOut": next_day, "adults1": "1", "sortOrder": sort, "locale": "ru_RU", "currency": "USD"}
@@ -31,12 +32,21 @@ def display_result(town_id, amount_htls, sort):
     data = json.loads(response.text)
     hotels = data['data']['body']['searchResults']['results']
     for hotel in hotels:
-        address = f"{hotel['address']['locality']}. {hotel['address']['streetAddress']}"
+        try:
+            street = hotel['address']['streetAddress']
+            address = f"{hotel['address']['locality']}. {street}"
+        except Exception as exc:
+            print(f'Упс... улицы нет. Ошибка: {exc}')
+            region = hotel['address']['region']
+            address = f"{hotel['address']['locality']}. {region}"
         hotel_id = hotel['id']
         price = hotel['ratePlan']['price']['exactCurrent']
+        substring = ''
+        for loc in hotel['landmarks']:
+            substring += f'\n{loc["label"]} - {loc["distance"]}'
         string = (
-            f"Отель: {hotel['name']}\nАдрес: {address}\nРасположен от цента города - "
-            f"{hotel['landmarks'][0]['distance']}\nЦена за сутки: ${price}"
+            f"Отель: {hotel['name']}\nАдрес: {address}\nРасположен от: {substring}"
+            f"\nЦена за сутки: ${price}"
         )
         yield hotel_id, string
 
@@ -48,10 +58,13 @@ def give_list_foto(id_hotel, amount):
     querystring = {"id": id_hotel}
     headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
     response = requests.request("GET", url, headers=headers, params=querystring)
-    data = json.loads(response.text)
-    list_items = data['hotelImages']
-    for item in list_items[:num]:
-        foto = item['baseUrl'].format(size='w')
-        list_foto.append(foto)
+    try:
+        data = json.loads(response.text)
+        list_items = data['hotelImages']
+        for item in list_items[:num]:
+            foto = item['baseUrl'].format(size='w')
+            list_foto.append(foto)
+    except Exception as exc:
+        print(f"Ошибка получения фотографий отель: {id_hotel}", exc)
 
     return list_foto
