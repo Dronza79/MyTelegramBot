@@ -1,4 +1,5 @@
 import json
+import random
 
 import requests
 from loader import RapidAPI_Key, tomorrow, next_day
@@ -71,7 +72,7 @@ def give_list_photos_of_hotel(id_hotel, num_fotos):
     try:
         data = json.loads(response.text)
         list_items = data.get('hotelImages')
-        for item in list_items[:num]:
+        for item in [random.choice(list_items) for _ in range(num)]:
             foto = item.get('baseUrl').format(size='w')
             list_foto.append(foto)
     except Exception as exc:
