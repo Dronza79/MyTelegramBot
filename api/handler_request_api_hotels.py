@@ -11,14 +11,15 @@ def get_index_named_city(city):
     response = requests.request("GET", url, headers=headers, params=querystring)
     data = json.loads(response.text)
     index = None
-    data = data['suggestions']
+    data = data.get('suggestions')
     for elem in data:
         if elem['group'] == "CITY_GROUP":
-            for item in elem['entities']:
+            for item in elem.get('entities'):
                 if item['type'] == "CITY":
-                    index = item['destinationId']
+                    index = item.get('destinationId')
                     break
             break
+    print(f'\n{city}', end=' ')
     return index
 
 
@@ -35,23 +36,27 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
     headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
     response = requests.request("GET", url, headers=headers, params=querystring)
     data = json.loads(response.text)
-    hotels = data['data']['body']['searchResults']['results']
+    hotels = data.get('data').get('body').get('searchResults').get('results')
     for hotel in hotels:
         try:
-            street = hotel['address']['streetAddress']
+            street = hotel.get('address').get('streetAddress')
             address = f"{hotel['address']['locality']}. {street}"
         except Exception as exc:
             print(f'Упс... улицы нет. Ошибка: {exc}')
-            region = hotel['address']['region']
+            region = hotel.get('address').get('region')
             address = f"{hotel['address']['locality']}. {region}"
-        hotel_id = hotel['id']
-        price = hotel['ratePlan']['price']['exactCurrent']
+        hotel_id = hotel.get('id')
+        try:
+            price = '$' + str(hotel.get('ratePlan').get('price').get('exactCurrent'))
+        except Exception as exc:
+            print(hotel_id, "Ошибка:", exc)
+            price = 'Цену получить не удалось...'
         substring = ''
-        for loc in hotel['landmarks']:
-            substring += f'\n{loc["label"]} - {loc["distance"]}'
+        for loc in hotel.get('landmarks'):
+            substring += f'\n{loc.get("label")} - {loc.get("distance")}'
         string = (
-            f"Отель: {hotel['name']}\nАдрес: {address}\nРасположен от: {substring}"
-            f"\nЦена за сутки: ${price}"
+            f"Отель: {hotel.get('name')}\nАдрес: {address}\nРасположен от: {substring}"
+            f"\nЦена за сутки: {price}"
         )
         yield hotel_id, string
 
@@ -65,9 +70,9 @@ def give_list_photos_of_hotel(id_hotel, num_fotos):
     response = requests.request("GET", url, headers=headers, params=querystring)
     try:
         data = json.loads(response.text)
-        list_items = data['hotelImages']
+        list_items = data.get('hotelImages')
         for item in list_items[:num]:
-            foto = item['baseUrl'].format(size='w')
+            foto = item.get('baseUrl').format(size='w')
             list_foto.append(foto)
     except Exception as exc:
         print(f"Ошибка получения фотографий отель: {id_hotel}", exc)

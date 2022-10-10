@@ -55,12 +55,12 @@ def get_photos(message):
         bot.register_next_step_handler(msg, get_photos)
         return
     poll = history[user][len(history[user]) - 1]
+    count = 0
     for hotel, string in display_result_getting_list_hotels(poll.city_id,
                                                             poll.number_hotels,
                                                             poll.sort_filter,
                                                             poll.price_min,
-                                                            poll.price_max
-                                                            ):
+                                                            poll.price_max):
         hotel_foto = give_list_photos_of_hotel(hotel, num_foto)
         print(f'{hotel}: {hotel_foto}')
         poll.list_foto[hotel] = hotel_foto
@@ -71,9 +71,11 @@ def get_photos(message):
                              reply_to_message_id=msg.message_id)
             continue
         list_foto = [InputMediaPhoto(foto) for foto in hotel_foto]
-        msg = bot.send_message(user, text=string)
+        count += 1
+        txt = f'<b>{count} вариант:</b>\n{"*" * 10}'
+        bot.send_message(user, text=txt, parse_mode='html')
+        bot.send_message(user, text=string)
         bot.send_media_group(user, list_foto,
-                             reply_to_message_id=msg.message_id,
                              allow_sending_without_reply=True)
     return_key = InlineKeyboardMarkup()
     return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
