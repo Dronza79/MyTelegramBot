@@ -49,7 +49,6 @@ def give_list_foto(id_hotel, amount):
     headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
     response = requests.request("GET", url, headers=headers, params=querystring)
     data = json.loads(response.text)
-
     list_items = data['hotelImages']
     for item in list_items[:num]:
         foto = item['baseUrl'].format(size='w')
