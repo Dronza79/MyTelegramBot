@@ -1,6 +1,6 @@
 import time
 
-from api.handler_step_poll import get_number_hotels
+from api.handler_step_poll import get_min_and_max_value
 from api.handler_request_api_hotels import get_index_named_city
 from loader import bot, history
 
@@ -42,5 +42,5 @@ def get_city_name_for_bestdeal(message):  # получаем город, ини�
         bot.register_next_step_handler(msg, get_city_name_for_bestdeal)
         return
     bot.send_message(message.from_user.id, 'Хорошо. Продолжим...')
-    bot.send_message(message.from_user.id, 'Укажите количество отелей (не более 25)')
-    bot.register_next_step_handler(message, get_number_hotels)
+    bot.send_message(message.from_user.id, 'Укажите min&max цену через пробел')
+    bot.register_next_step_handler(message, get_min_and_max_value)

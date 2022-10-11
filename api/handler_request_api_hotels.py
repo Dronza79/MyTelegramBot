@@ -33,7 +33,7 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
     url = "https://hotels4.p.rapidapi.com/properties/list"
     querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amount_htls,
                    "checkIn": tomorrow, "checkOut": next_day, "adults1": "1",
-                   "sortOrder": sort, "locale": "ru_RU", "currency": "USD"}
+                   "sortOrder": sort, "locale": "ru_RU", "currency": "RUR"}
     if p_from and p_to:
         querystring['priceMin'] = p_from
         querystring['priceMax'] = p_to
@@ -42,7 +42,9 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
     response = requests.request("GET", url, headers=headers, params=querystring)
     data = json.loads(response.text)
     hotels = data.get('data').get('body').get('searchResults').get('results')
+    count = 0
     for hotel in hotels:
+        count += 1
         try:
             street = hotel.get('address').get('streetAddress')
             address = f"{hotel['address']['locality']}. {street}"
@@ -52,7 +54,7 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
             address = f"{hotel['address']['locality']}. {region}"
         hotel_id = hotel.get('id')
         try:
-            price = '$' + str(hotel.get('ratePlan').get('price').get('exactCurrent'))
+            price = f"{str(hotel.get('ratePlan').get('price').get('exactCurrent'))} &#8381"
         except Exception as exc:
             print(hotel_id, "Ошибка:", exc)
             price = 'Цену получить не удалось...'
@@ -60,6 +62,8 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
         for loc in hotel.get('landmarks'):
             substring += f'\n{loc.get("label")} - {loc.get("distance")}'
         string = (
+            f"<b>{count} вариант:</b>\n"
+            f"{'*' * 50}\n"
             f"Отель: {hotel.get('name')}\nАдрес: {address}\nРасположен от: {substring}"
             f"\nЦена за сутки: {price}"
         )
