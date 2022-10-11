@@ -73,10 +73,9 @@ def get_photos(message):
         list_foto = [InputMediaPhoto(foto) for foto in hotel_foto]
         count += 1
         txt = f'<b>{count} вариант:</b>\n{"*" * 10}'
-        bot.send_message(user, text=txt, parse_mode='html')
-        bot.send_message(user, text=string)
-        bot.send_media_group(user, list_foto,
-                             allow_sending_without_reply=True)
+        msg = bot.send_message(user, text=txt, parse_mode='html')
+        bot.send_media_group(user, list_foto)
+        bot.send_message(user, text=string, reply_to_message_id=msg.id)
     return_key = InlineKeyboardMarkup()
     return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
     bot.send_message(user, text='Доклад закончил...', reply_markup=return_key)

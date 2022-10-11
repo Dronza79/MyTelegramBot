@@ -10,7 +10,11 @@ def get_index_named_city(city):
     headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
     querystring = {"query": city, "locale": "ru_RU"}
     response = requests.request("GET", url, headers=headers, params=querystring)
-    data = json.loads(response.text)
+    try:
+        data = json.loads(response.text)
+    except Exception as bug:
+        print(bug)
+        get_index_named_city(city)
     index = None
     data = data.get('suggestions')
     for elem in data:
