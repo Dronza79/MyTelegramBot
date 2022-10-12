@@ -46,7 +46,6 @@ def get_number_hotels(message):  # получаем количество оте�
 
 @bot.callback_query_handler(func=lambda call: call.data in ['yes', 'not'])
 def get_answer(call):
-    count = 0
     user = call.from_user.id
     poll = history[user][len(history[user]) - 1]
     if call.data == 'yes':
@@ -68,7 +67,7 @@ def get_photos(message):
     num_foto = message.text
     user = message.from_user.id
     if not num_foto.isdigit():
-        msg = bot.send_message(message.from_user.id, text='Ошибка: Неверный типа значений.\n(ожидается число)')
+        msg = bot.send_message(message.from_user.id, text='Ошибка: Неверный тип значений.\n(ожидается число)')
         bot.register_next_step_handler(msg, get_photos)
         return
     if int(num_foto) > 10:
@@ -87,11 +86,11 @@ def get_photos(message):
         if not hotel_foto:
             msg = bot.send_message(user, text=string)
             bot.send_message(user,
-                             text='Фотографии загрузить не удалось',
+                             text='Ошибка: Фотографии загрузить не удалось',
                              reply_to_message_id=msg.message_id)
             continue
         list_foto = [InputMediaPhoto(foto) for foto in hotel_foto]
-        msg = bot.send_message(user, text=string)
+        msg = bot.send_message(user, text=string, parse_mode='html')
         bot.send_media_group(user, list_foto, reply_to_message_id=msg.id)
     return_key = InlineKeyboardMarkup()
     return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))

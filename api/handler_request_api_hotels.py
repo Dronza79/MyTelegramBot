@@ -33,7 +33,7 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
     url = "https://hotels4.p.rapidapi.com/properties/list"
     querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amount_htls,
                    "checkIn": tomorrow, "checkOut": next_day, "adults1": "1",
-                   "sortOrder": sort, "locale": "ru_RU", "currency": "RUR"}
+                   "sortOrder": sort, "locale": "ru_RU"}
     if p_from and p_to:
         querystring['priceMin'] = p_from
         querystring['priceMax'] = p_to
@@ -54,7 +54,7 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
             address = f"{hotel['address']['locality']}. {region}"
         hotel_id = hotel.get('id')
         try:
-            price = f"{str(hotel.get('ratePlan').get('price').get('exactCurrent'))} &#8381"
+            price = f"{str(hotel.get('ratePlan').get('price').get('exactCurrent'))}"
         except Exception as exc:
             print(hotel_id, "Ошибка:", exc)
             price = 'Цену получить не удалось...'
@@ -65,8 +65,7 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
             f"<b>{count} вариант:</b>\n"
             f"{'*' * 50}\n"
             f"Отель: {hotel.get('name')}\nАдрес: {address}\nРасположен от: {substring}"
-            f"\nЦена за сутки: {price}"
-        )
+            f"\nЦена за сутки: $ {price}")
         yield hotel_id, string
 
 

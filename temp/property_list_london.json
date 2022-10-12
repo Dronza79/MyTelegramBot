@@ -1,0 +1,3648 @@
+{
+  "result": "OK",
+  "data": {
+    "body": {
+      "header": "Лондон, Англия, Великобритания",
+      "query": {
+        "destination": {
+          "id": "549499",
+          "value": "Лондон, Англия, Великобритания",
+          "resolvedLocation": "CITY:549499:UNKNOWN:UNKNOWN"
+        }
+      },
+      "searchResults": {
+        "totalCount": 6237,
+        "results": [
+          {
+            "id": 470429,
+            "name": "PubLove @ The Green Man - Hostel",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "308 Edgware Road",
+              "extendedAddress": "",
+              "locality": "London",
+              "postalCode": "W2 1DY",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 6,
+              "rating": "6,0",
+              "total": 114,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "3,3 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "20 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$31",
+                "exactCurrent": 31.33
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Паддингтон",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.520228,
+              "lon": -0.170508
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 8800781,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8810000/8800800/8800781/de77b38e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 470411,
+            "name": "PubLove @ The Crown, Battersea",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "102 Lavender Hill",
+              "extendedAddress": "",
+              "locality": "London",
+              "postalCode": "SW11 5RD",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 6.6,
+              "rating": "6,6",
+              "total": 88,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "5,1 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "20 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$31",
+                "exactCurrent": 31.32
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Shaftesbury",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.465411,
+              "lon": -0.15654
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 8800275,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8810000/8800300/8800275/cf60e856_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 557618,
+            "name": "Safestay London Kensington Holland Park",
+            "starRating": 4,
+            "urls": {},
+            "address": {
+              "streetAddress": "Holland Walk",
+              "extendedAddress": "Kensington",
+              "locality": "London",
+              "postalCode": "W8 7QU",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.4,
+              "rating": "7,4",
+              "total": 772,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "5,1 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "18 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$40",
+                "exactCurrent": 39.53
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Королевский боро Кенсингтон и Челси",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.502251,
+              "lon": -0.201466
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 12706774,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12710000/12706800/12706774/86253f02_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 623528,
+            "name": "NX London Hostel",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "323A New Cross Road",
+              "extendedAddress": "",
+              "locality": "London",
+              "postalCode": "SE14 6AS",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 6.4,
+              "rating": "6,4",
+              "total": 82,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "7,2 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "29 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$47",
+                "exactCurrent": 46.88
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Нью-Кросс",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.475805,
+              "lon": -0.03715
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 11974692,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/12000000/11980000/11974700/11974692/fd301a93_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 402789,
+            "name": "Book a Bed Hostels",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "86 Tanner's Hill",
+              "extendedAddress": "",
+              "locality": "London",
+              "postalCode": "SE8 4PN",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 6.4,
+              "rating": "6,4",
+              "total": 196,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "7,9 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "29 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$36",
+                "exactCurrent": 36.4,
+                "old": "$38"
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "London",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.473612,
+              "lon": -0.027122
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 4916812,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4920000/4916900/4916812/0b992314_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 305427,
+            "name": "Bridge Park Hotel",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "16 Hillside",
+              "extendedAddress": "Willesden",
+              "locality": "London",
+              "postalCode": "NW10 8BN",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 6.6,
+              "rating": "6,6",
+              "total": 433,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "10 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "15 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$45",
+                "exactCurrent": 45.03
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Stonebridge",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.54116,
+              "lon": -0.261625
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 1678197,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1680000/1678200/1678197/21be2977_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 711429824,
+            "name": "easyHotel London Croydon",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "22 Addiscombe Road",
+              "extendedAddress": "",
+              "locality": "Croydon",
+              "postalCode": "CR0 5PE",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 5.8,
+              "rating": "5,8",
+              "total": 768,
+              "scale": 10
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "15 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "27 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$45",
+                "exactCurrent": 45.02
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Fairfield",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.374838,
+              "lon": -0.090327
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 22200932,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/23000000/22210000/22201000/22200932/7146c0e6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 571728,
+            "name": "ibis budget London Hounslow",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "20-28 Staines Road",
+              "extendedAddress": "",
+              "locality": "Hounslow",
+              "postalCode": "TW3 3JS",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7,
+              "rating": "7,0",
+              "total": 1095,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Центр города",
+                "distance": "17 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "5,8 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$43",
+                "exactCurrent": 42.84
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Hounslow Heath",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|TESCO",
+            "coordinate": {
+              "lat": 51.467065,
+              "lon": -0.366473
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 13433806,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/14000000/13440000/13433900/13433806/36e33a96_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 752151360,
+            "name": "ibis budget London Bromley Town Centre",
+            "starRating": 2.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "18 Elmfield Road",
+              "extendedAddress": "",
+              "locality": "Bromley",
+              "postalCode": "BR1 1LR",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.2,
+              "rating": "7,2",
+              "total": 80,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "15 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "33 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$45",
+                "exactCurrent": 44.81
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Bromley",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "HRW",
+            "coordinate": {
+              "lat": 51.40235,
+              "lon": 0.017137
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 23473480,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/24000000/23480000/23473500/23473480/be1fd3ba_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 205709,
+            "name": "Ramada by Wyndham London North M1",
+            "starRating": 4,
+            "urls": {},
+            "address": {
+              "streetAddress": "M1 Between Jct 2-4",
+              "extendedAddress": "Gateway Services",
+              "locality": "London",
+              "postalCode": "NW7 3HU",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.2,
+              "rating": "7,2",
+              "total": 1090,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "17 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "22 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$44",
+                "exactCurrent": 43.92
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "London",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|HRW|TESCO",
+            "coordinate": {
+              "lat": 51.629878,
+              "lon": -0.263358
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 896804,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/900000/896900/896804/1d014b24_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 188332,
+            "name": "Ramada by Wyndham South Mimms M25",
+            "starRating": 3.5,
+            "urls": {},
+            "address": {
+              "streetAddress": "Welcome Break Service Area",
+              "extendedAddress": "",
+              "locality": "Potters Bar",
+              "postalCode": "EN6 3QQ",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.2,
+              "rating": "7,2",
+              "total": 703,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "21 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "29 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$47",
+                "exactCurrent": 47.22
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Potters Bar",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|HRW|TESCO",
+            "coordinate": {
+              "lat": 51.687113,
+              "lon": -0.221622
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 431551,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/440000/431600/431551/16ebee44_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 532788,
+            "name": "YHA London Lee Valley - Hostel",
+            "starRating": 4,
+            "urls": {},
+            "address": {
+              "streetAddress": "Windmill Lane",
+              "extendedAddress": "Cheshunt",
+              "locality": "Waltham Cross",
+              "postalCode": "EN8 9AJ",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.6,
+              "rating": "8,6",
+              "total": 41,
+              "scale": 10,
+              "badge": "fabulous",
+              "badgeText": "Превосходно"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "23 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "39 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$43",
+                "exactCurrent": 42.84
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Waltham Cross",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "priceRangeUK",
+            "coordinate": {
+              "lat": 51.703415,
+              "lon": -0.022068
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 11518484,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/12000000/11520000/11518500/11518484/a0b5705f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 7340448,
+            "name": "Best Western White House Hotel",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "27-31 Upton Road",
+              "extendedAddress": "",
+              "locality": "Watford",
+              "postalCode": "WD18 0JF",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.2,
+              "rating": "8,2",
+              "total": 765,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "25 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "21 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$49",
+                "exactCurrent": 48.68
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Watford",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.65644,
+              "lon": -0.40181
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 198139,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/200000/198200/198139/7f91fd9a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 225395,
+            "name": "Hotel Campanile Dartford",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "1 Clipper Boulevard West",
+              "extendedAddress": "Crossways Business Park",
+              "locality": "Dartford",
+              "postalCode": "DA2 6QN",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7,
+              "rating": "7,0",
+              "total": 878,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "27 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "49 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$49",
+                "exactCurrent": 49.43
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Dartford",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|D13|TESCO",
+            "coordinate": {
+              "lat": 51.457639,
+              "lon": 0.25586
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 1150074,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1160000/1150100/1150074/6830989e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 183508,
+            "name": "ibis London Thurrock M25",
+            "starRating": 2,
+            "urls": {},
+            "address": {
+              "streetAddress": "Weston Avenue, West Thurrock",
+              "extendedAddress": "",
+              "locality": "Grays",
+              "postalCode": "RM20 3JQ",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.6,
+              "rating": "7,6",
+              "total": 918,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "28 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "50 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$46",
+                "exactCurrent": 46.13
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Grays",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|TESCO",
+            "coordinate": {
+              "lat": 51.476721,
+              "lon": 0.26773
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 525027,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/530000/525100/525027/ead488c6_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 361914,
+            "name": "Days Inn by Wyndham Sevenoaks Clacket Lane",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "Roadchef Motorway Service Area",
+              "extendedAddress": "M25 Westbound",
+              "locality": "Westerham",
+              "postalCode": "TN16 2ER",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 7.8,
+              "rating": "7,8",
+              "total": 526,
+              "scale": 10,
+              "badge": "good",
+              "badgeText": "Хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "29 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "41 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$43",
+                "exactCurrent": 42.84
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Westerham",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "pimmsAttributes": "DoubleStamps|MESOTESTUK|TESCO",
+            "coordinate": {
+              "lat": 51.270831,
+              "lon": 0.039996
+            },
+            "providerType": "MULTISOURCE",
+            "supplierHotelId": 3921014,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/4000000/3930000/3921100/3921014/8156e618_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          },
+          {
+            "id": 569455,
+            "name": "Two Brewers by Greene King Inns",
+            "starRating": 3,
+            "urls": {},
+            "address": {
+              "streetAddress": "The Common",
+              "extendedAddress": "Chipperfield, Hertfordshire",
+              "locality": "Kings Langley",
+              "postalCode": "WD4 9BS",
+              "region": "England",
+              "countryName": "United Kingdom",
+              "countryCode": "gb",
+              "obfuscate": false
+            },
+            "guestReviews": {
+              "unformattedRating": 8.4,
+              "rating": "8,4",
+              "total": 198,
+              "scale": 10,
+              "badge": "very-good",
+              "badgeText": "Очень хорошо"
+            },
+            "landmarks": [
+              {
+                "label": "Лондон",
+                "distance": "33 км"
+              },
+              {
+                "label": "Аэропорт Хитроу (LHR)",
+                "distance": "26 км"
+              }
+            ],
+            "geoBullets": [],
+            "ratePlan": {
+              "price": {
+                "current": "$49",
+                "exactCurrent": 49.43
+              },
+              "features": {
+                "paymentPreference": false,
+                "noCCRequired": false
+              }
+            },
+            "neighbourhood": "Kings Langley",
+            "deals": {},
+            "messaging": {},
+            "badging": {},
+            "coordinate": {
+              "lat": 51.70373,
+              "lon": -0.491065
+            },
+            "providerType": "LOCAL",
+            "supplierHotelId": 11899262,
+            "isAlternative": false,
+            "optimizedThumbUrls": {
+              "srpDesktop": "https://exp.cdn-hotels.com/hotels/12000000/11900000/11899300/11899262/5520cad4_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+            }
+          }
+        ],
+        "pagination": {
+          "currentPage": 1,
+          "pageGroup": "EXPEDIA_IN_POLYGON"
+        }
+      },
+      "sortResults": {
+        "options": [
+          {
+            "label": "Звездность",
+            "itemMeta": "star",
+            "choices": [
+              {
+                "label": "Звезды (по убыванию)",
+                "value": "STAR_RATING_HIGHEST_FIRST",
+                "selected": false
+              },
+              {
+                "label": "Звезды (по возрастанию)",
+                "value": "STAR_RATING_LOWEST_FIRST",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": []
+          },
+          {
+            "label": "Расстояние",
+            "itemMeta": "distance",
+            "selectedChoiceLabel": "Расстояние до центра города",
+            "choices": [
+              {
+                "label": "Расстояние до центра города",
+                "value": "DISTANCE_FROM_LANDMARK",
+                "selected": true
+              }
+            ],
+            "enhancedChoices": [
+              {
+                "label": "Что посмотреть",
+                "itemMeta": "landmarks",
+                "choices": [
+                  {
+                    "label": "Центр города",
+                    "id": 549499
+                  },
+                  {
+                    "label": "Биг-Бен",
+                    "id": 1653256
+                  },
+                  {
+                    "label": "Выставочный центр Excel",
+                    "id": 1637201
+                  },
+                  {
+                    "label": "Гайд-Парк",
+                    "id": 1410
+                  },
+                  {
+                    "label": "Королевский Альберт-Холл (концертный зал)",
+                    "id": 1632897
+                  },
+                  {
+                    "label": "Лестер-сквер (площадь)",
+                    "id": 1632894
+                  },
+                  {
+                    "label": "Ливерпуль-Стрит",
+                    "id": 1713855
+                  },
+                  {
+                    "label": "Лондонский глаз",
+                    "id": 1637276
+                  },
+                  {
+                    "label": "Лондонский мост",
+                    "id": 1653378
+                  },
+                  {
+                    "label": "Мраморная Арка",
+                    "id": 552740
+                  },
+                  {
+                    "label": "Небоскреб The Shard",
+                    "id": 1773627
+                  },
+                  {
+                    "label": "Оксфорд-стрит",
+                    "id": 1696059
+                  },
+                  {
+                    "label": "Площадь Пикадилли",
+                    "id": 552739
+                  },
+                  {
+                    "label": "Рассел-сквер (площадь)",
+                    "id": 1634574
+                  },
+                  {
+                    "label": "Рынок Ковент-Гарден",
+                    "id": 1632891
+                  },
+                  {
+                    "label": "Спортивно-развлекательный центр «O2 Арена»",
+                    "id": 1702052
+                  },
+                  {
+                    "label": "Стадион «Уэмбли»",
+                    "id": 1653516
+                  },
+                  {
+                    "label": "Тауэрский мост",
+                    "id": 1653503
+                  },
+                  {
+                    "label": "Трафальгарская площадь",
+                    "id": 552738
+                  },
+                  {
+                    "label": "Финсбери-Парк",
+                    "id": 1726280
+                  }
+                ]
+              },
+              {
+                "label": "Вокзалы и станции",
+                "itemMeta": "stations",
+                "choices": [
+                  {
+                    "label": "Вокзал Ист-Кройдон",
+                    "id": 1717459
+                  },
+                  {
+                    "label": "Вокзал Кингз-Кросс",
+                    "id": 1708777
+                  },
+                  {
+                    "label": "Вокзал Лондон-Ватерлоо",
+                    "id": 10558956
+                  },
+                  {
+                    "label": "Вокзал Лондон-Виктория",
+                    "id": 1710445
+                  },
+                  {
+                    "label": "Вокзал Лондон-Ливерпуль-Стрит",
+                    "id": 1717442
+                  },
+                  {
+                    "label": "Вокзал Лондон-Паддингтон",
+                    "id": 1732003
+                  },
+                  {
+                    "label": "Вокзал Лондон-Сент-Панкрас",
+                    "id": 1634528
+                  },
+                  {
+                    "label": "Вокзал Лондон-Юстон",
+                    "id": 1740530
+                  },
+                  {
+                    "label": "Подземная станция Bank",
+                    "id": 1700308
+                  },
+                  {
+                    "label": "Подземная станция Euston",
+                    "id": 1634529
+                  },
+                  {
+                    "label": "Подземная станция Gloucester Road",
+                    "id": 1699559
+                  },
+                  {
+                    "label": "Подземная станция Gunnersbury",
+                    "id": 1699564
+                  },
+                  {
+                    "label": "Подземная станция Heathrow Terminal 1-3",
+                    "id": 1700257
+                  },
+                  {
+                    "label": "Подземная станция Heathrow Terminal 4",
+                    "id": 1700258
+                  },
+                  {
+                    "label": "Подземная станция Liverpool Street",
+                    "id": 1634578
+                  },
+                  {
+                    "label": "Подземная станция Paddington",
+                    "id": 1632895
+                  },
+                  {
+                    "label": "Подземная станция Victoria",
+                    "id": 1632902
+                  },
+                  {
+                    "label": "Станция Earl's Court",
+                    "id": 1699761
+                  },
+                  {
+                    "label": "Станция Heathrow Terminal 4",
+                    "id": 10962522
+                  },
+                  {
+                    "label": "Станция Heathrow Terminal 5",
+                    "id": 1700259
+                  }
+                ]
+              },
+              {
+                "label": "Аэропорты",
+                "itemMeta": "airports",
+                "choices": [
+                  {
+                    "label": "Аэропорт Хитроу (LHR)",
+                    "id": 543878
+                  },
+                  {
+                    "label": "Великобритания (аэропорт Гатуик-LGW)",
+                    "id": 543879
+                  },
+                  {
+                    "label": "Лондон (LCY-Лондон-Сити)",
+                    "id": 1634530
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "Рейтинг гостей",
+            "itemMeta": "rating",
+            "choices": [
+              {
+                "label": "Рейтинг гостей",
+                "value": "GUEST_RATING",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": []
+          },
+          {
+            "label": "Цена",
+            "itemMeta": "price",
+            "choices": [
+              {
+                "label": "Цена (по убыванию)",
+                "value": "PRICE_HIGHEST_FIRST",
+                "selected": false
+              },
+              {
+                "label": "Цена (по возрастанию)",
+                "value": "PRICE",
+                "selected": false
+              }
+            ],
+            "enhancedChoices": []
+          }
+        ],
+        "distanceOptionLandmarkId": 549499
+      },
+      "filters": {
+        "applied": true,
+        "name": {
+          "item": {
+            "value": ""
+          },
+          "autosuggest": {
+            "additionalUrlParams": {
+              "resolved-location": "CITY:549499:UNKNOWN:UNKNOWN",
+              "q-destination": "Лондон, Англия, Великобритания",
+              "destination-id": "549499"
+            }
+          }
+        },
+        "starRating": {
+          "applied": false,
+          "items": [
+            {
+              "value": 5,
+              "disabled": true
+            },
+            {
+              "value": 4
+            },
+            {
+              "value": 3
+            },
+            {
+              "value": 2
+            },
+            {
+              "value": 1,
+              "disabled": true
+            }
+          ]
+        },
+        "guestRating": {
+          "range": {
+            "min": {
+              "defaultValue": 0
+            },
+            "max": {
+              "defaultValue": 10
+            }
+          }
+        },
+        "landmarks": {
+          "selectedOrder": [],
+          "items": [
+            {
+              "label": "Центр города",
+              "value": "549499"
+            },
+            {
+              "label": "Аэропорт Хитроу (LHR)",
+              "value": "543878"
+            },
+            {
+              "label": "Гайд-Парк",
+              "value": "1410"
+            },
+            {
+              "label": "Великобритания (аэропорт Гатуик-LGW)",
+              "value": "543879"
+            },
+            {
+              "label": "Оксфорд-стрит",
+              "value": "1696059"
+            },
+            {
+              "label": "Площадь Пикадилли",
+              "value": "552739"
+            },
+            {
+              "label": "Спортивно-развлекательный центр «O2 Арена»",
+              "value": "1702052"
+            },
+            {
+              "label": "Вокзал Лондон-Сент-Панкрас",
+              "value": "1634528"
+            },
+            {
+              "label": "Лондонский глаз",
+              "value": "1637276"
+            },
+            {
+              "label": "Выставочный центр Excel",
+              "value": "1637201"
+            },
+            {
+              "label": "Лондонский мост",
+              "value": "1653378"
+            },
+            {
+              "label": "Тауэрский мост",
+              "value": "1653503"
+            },
+            {
+              "label": "Трафальгарская площадь",
+              "value": "552738"
+            },
+            {
+              "label": "Биг-Бен",
+              "value": "1653256"
+            },
+            {
+              "label": "Рынок Ковент-Гарден",
+              "value": "1632891"
+            },
+            {
+              "label": "Вокзал Лондон-Виктория",
+              "value": "1710445"
+            },
+            {
+              "label": "Вокзал Лондон-Паддингтон",
+              "value": "1732003"
+            },
+            {
+              "label": "Станция Heathrow Terminal 5",
+              "value": "1700259"
+            },
+            {
+              "label": "Подземная станция Heathrow Terminal 1-3",
+              "value": "1700257"
+            },
+            {
+              "label": "Рассел-сквер (площадь)",
+              "value": "1634574"
+            }
+          ],
+          "distance": []
+        },
+        "neighbourhood": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Лондонский Сити",
+              "value": "1649988",
+              "disabled": true
+            },
+            {
+              "label": "Кингс-Кросс Сент-Панкрасс",
+              "value": "1808499",
+              "disabled": true
+            },
+            {
+              "label": "Паддингтон",
+              "value": "1762406"
+            },
+            {
+              "label": "Ковент-Гарден",
+              "value": "10760693",
+              "disabled": true
+            },
+            {
+              "label": "Кенсингтон",
+              "value": "1696003"
+            },
+            {
+              "label": "Виктория",
+              "value": "1762415",
+              "disabled": true
+            },
+            {
+              "label": "Мейфэр",
+              "value": "1696010",
+              "disabled": true
+            },
+            {
+              "label": "Шордитч",
+              "value": "1696014",
+              "disabled": true
+            },
+            {
+              "label": "Стратфорд",
+              "value": "1696020",
+              "disabled": true
+            },
+            {
+              "label": "Кэнэри-Уорф",
+              "value": "1808496",
+              "disabled": true
+            },
+            {
+              "label": "Сохо",
+              "value": "1696015",
+              "disabled": true
+            },
+            {
+              "label": "Юстон",
+              "value": "10784376",
+              "disabled": true
+            },
+            {
+              "label": "Камден-Таун",
+              "value": "1695985",
+              "disabled": true
+            },
+            {
+              "label": "Сити-оф-Вестминстер",
+              "value": "1695988"
+            },
+            {
+              "label": "Эрлс-Корт",
+              "value": "10770563",
+              "disabled": true
+            },
+            {
+              "label": "Центральный район Лондона",
+              "value": "1735370"
+            },
+            {
+              "label": "Хаммерсмит-и-Фулем",
+              "value": "1808498",
+              "disabled": true
+            },
+            {
+              "label": "Саут-Кенсингтон",
+              "value": "1721610",
+              "disabled": true
+            },
+            {
+              "label": "Челси",
+              "value": "1695984",
+              "disabled": true
+            },
+            {
+              "label": "Мерилибон",
+              "value": "1696009",
+              "disabled": true
+            },
+            {
+              "label": "Блумсбери",
+              "value": "1695969",
+              "disabled": true
+            },
+            {
+              "label": "Isle of Dogs",
+              "value": "10652523",
+              "disabled": true
+            },
+            {
+              "label": "Хаммерсмит",
+              "value": "1695993",
+              "disabled": true
+            },
+            {
+              "label": "Айлингтон",
+              "value": "1696001",
+              "disabled": true
+            },
+            {
+              "label": "Ноттинг-Хилл (район)",
+              "value": "1649986",
+              "disabled": true
+            },
+            {
+              "label": "Доклендс",
+              "value": "1808497",
+              "disabled": true
+            },
+            {
+              "label": "Уэмбли-Парк",
+              "value": "10979286",
+              "disabled": true
+            },
+            {
+              "label": "Найтсбридж",
+              "value": "1696007",
+              "disabled": true
+            },
+            {
+              "label": "Клапхэм",
+              "value": "1695990",
+              "disabled": true
+            },
+            {
+              "label": "Фаррингдон",
+              "value": "10990927",
+              "disabled": true
+            },
+            {
+              "label": "Воксхолл",
+              "value": "1731684",
+              "disabled": true
+            },
+            {
+              "label": "Уайтчапел",
+              "value": "1717900",
+              "disabled": true
+            },
+            {
+              "label": "Фитцровия",
+              "value": "1696042",
+              "disabled": true
+            },
+            {
+              "label": "Финсбери",
+              "value": "10990248",
+              "disabled": true
+            },
+            {
+              "label": "Бэттерси",
+              "value": "1721816"
+            },
+            {
+              "label": "Old Street (Олд-стрит)",
+              "value": "1738616",
+              "disabled": true
+            },
+            {
+              "label": "Вест-Илинг",
+              "value": "1762640",
+              "disabled": true
+            },
+            {
+              "label": "Барбикан",
+              "value": "10990915",
+              "disabled": true
+            },
+            {
+              "label": "Саут-Банк",
+              "value": "1697390",
+              "disabled": true
+            },
+            {
+              "label": "Лонгфорд",
+              "value": "10565318",
+              "disabled": true
+            },
+            {
+              "label": "Каннинг-Таун",
+              "value": "10990924",
+              "disabled": true
+            },
+            {
+              "label": "Хокстон",
+              "value": "1722598",
+              "disabled": true
+            },
+            {
+              "label": "Патни",
+              "value": "10565331",
+              "disabled": true
+            },
+            {
+              "label": "Эйнджел",
+              "value": "1755286",
+              "disabled": true
+            },
+            {
+              "label": "Хампстед",
+              "value": "1695994",
+              "disabled": true
+            },
+            {
+              "label": "Уолтемстоу",
+              "value": "1762671",
+              "disabled": true
+            },
+            {
+              "label": "Кентиш-Таун",
+              "value": "1696004",
+              "disabled": true
+            },
+            {
+              "label": "Бетнал-Грин",
+              "value": "10565325",
+              "disabled": true
+            },
+            {
+              "label": "Вулуич",
+              "value": "1696072",
+              "disabled": true
+            },
+            {
+              "label": "Актон",
+              "value": "1762709",
+              "disabled": true
+            },
+            {
+              "label": "Пекхам",
+              "value": "1762668",
+              "disabled": true
+            },
+            {
+              "label": "Бермондси",
+              "value": "1697384",
+              "disabled": true
+            },
+            {
+              "label": "Кью",
+              "value": "1695947",
+              "disabled": true
+            },
+            {
+              "label": "Блэкхит",
+              "value": "10791501",
+              "disabled": true
+            },
+            {
+              "label": "Парк-Ройал",
+              "value": "10977709",
+              "disabled": true
+            },
+            {
+              "label": "Королевский боро Кенсингтон и Челси",
+              "value": "11032848"
+            },
+            {
+              "label": "Майда-Вейл",
+              "value": "1762639",
+              "disabled": true
+            },
+            {
+              "label": "Уайт-Сити",
+              "value": "10990950",
+              "disabled": true
+            },
+            {
+              "label": "Высотное здание Hamlets",
+              "value": "1696024",
+              "disabled": true
+            },
+            {
+              "label": "Холланд-парк",
+              "value": "1695999"
+            },
+            {
+              "label": "Криклвуд",
+              "value": "1695992",
+              "disabled": true
+            },
+            {
+              "label": "Спайталфилдс",
+              "value": "1696017",
+              "disabled": true
+            },
+            {
+              "label": "Килберн",
+              "value": "1696006",
+              "disabled": true
+            },
+            {
+              "label": "Западный Кенсингтон",
+              "value": "1762677",
+              "disabled": true
+            },
+            {
+              "label": "Ньюхем",
+              "value": "1696011",
+              "disabled": true
+            },
+            {
+              "label": "Хестон",
+              "value": "10566145",
+              "disabled": true
+            },
+            {
+              "label": "Стануэлл",
+              "value": "1712846",
+              "disabled": true
+            },
+            {
+              "label": "Холлоуэй",
+              "value": "1696000",
+              "disabled": true
+            },
+            {
+              "label": "Лаймхауз",
+              "value": "1799537",
+              "disabled": true
+            },
+            {
+              "label": "Хайбери",
+              "value": "1695995",
+              "disabled": true
+            },
+            {
+              "label": "Сент-Джонс-Вуд",
+              "value": "1762445",
+              "disabled": true
+            },
+            {
+              "label": "Долстон",
+              "value": "10990955",
+              "disabled": true
+            },
+            {
+              "label": "Майл-Энд",
+              "value": "10990930",
+              "disabled": true
+            },
+            {
+              "label": "Челси-Харбор",
+              "value": "10990965",
+              "disabled": true
+            },
+            {
+              "label": "Ротерхит",
+              "value": "10990914",
+              "disabled": true
+            },
+            {
+              "label": "Арчуэй",
+              "value": "10990934",
+              "disabled": true
+            },
+            {
+              "label": "Западный Хэмпстед",
+              "value": "10990937",
+              "disabled": true
+            },
+            {
+              "label": "Примроуз-Хилл",
+              "value": "10990953",
+              "disabled": true
+            },
+            {
+              "label": "Хармондсворт",
+              "value": "10395968",
+              "disabled": true
+            },
+            {
+              "label": "Сток-Ньюингтон",
+              "value": "10674336",
+              "disabled": true
+            },
+            {
+              "label": "Уоппинг",
+              "value": "1696053",
+              "disabled": true
+            },
+            {
+              "label": "Дэтфорд",
+              "value": "10990910",
+              "disabled": true
+            },
+            {
+              "label": "Лейтонстон",
+              "value": "10990938",
+              "disabled": true
+            },
+            {
+              "label": "Маленькая Венеция",
+              "value": "1717092"
+            },
+            {
+              "label": "Северный Актон",
+              "value": "10990922",
+              "disabled": true
+            },
+            {
+              "label": "Стокуэлл",
+              "value": "10990260",
+              "disabled": true
+            },
+            {
+              "label": "Кольерс-Вуд",
+              "value": "10990923",
+              "disabled": true
+            },
+            {
+              "label": "Белсайз-Парк",
+              "value": "10990936",
+              "disabled": true
+            },
+            {
+              "label": "Колнбрук",
+              "value": "548283",
+              "disabled": true
+            },
+            {
+              "label": "Чарлтон",
+              "value": "10990261",
+              "disabled": true
+            },
+            {
+              "label": "Остерли",
+              "value": "1762512",
+              "disabled": true
+            },
+            {
+              "label": "Темпл",
+              "value": "10990270",
+              "disabled": true
+            },
+            {
+              "label": "Эрлсфилд",
+              "value": "10990241",
+              "disabled": true
+            },
+            {
+              "label": "Уотерлу",
+              "value": "1696054",
+              "disabled": true
+            },
+            {
+              "label": "Бейсуотер",
+              "value": "1695965",
+              "disabled": true
+            },
+            {
+              "label": "Западный Бромптон",
+              "value": "10990233",
+              "disabled": true
+            },
+            {
+              "label": "Форест-Гейт",
+              "value": "10990949",
+              "disabled": true
+            },
+            {
+              "label": "Холборн",
+              "value": "1706695",
+              "disabled": true
+            },
+            {
+              "label": "Вест-Хэм",
+              "value": "1762672",
+              "disabled": true
+            },
+            {
+              "label": "Чизвик",
+              "value": "1695987",
+              "disabled": true
+            },
+            {
+              "label": "Саутварк",
+              "value": "1696016",
+              "disabled": true
+            },
+            {
+              "label": "Хакни",
+              "value": "1696051",
+              "disabled": true
+            },
+            {
+              "label": "Пимлико",
+              "value": "1696012",
+              "disabled": true
+            },
+            {
+              "label": "Белгрейвия",
+              "value": "1695966",
+              "disabled": true
+            },
+            {
+              "label": "Илинг",
+              "value": "1696039",
+              "disabled": true
+            },
+            {
+              "label": "Шепердс-Буш",
+              "value": "1696013",
+              "disabled": true
+            },
+            {
+              "label": "Тауэр-Хилл",
+              "value": "1696025",
+              "disabled": true
+            },
+            {
+              "label": "Рохемптон",
+              "value": "10565805",
+              "disabled": true
+            },
+            {
+              "label": "Уондсворт",
+              "value": "1696052"
+            },
+            {
+              "label": "Сент-Джеймс",
+              "value": "1696019",
+              "disabled": true
+            },
+            {
+              "label": "Клеркенвелл",
+              "value": "1695991",
+              "disabled": true
+            },
+            {
+              "label": "р-н Фулем",
+              "value": "1696045",
+              "disabled": true
+            },
+            {
+              "label": "Китайский квартал - Chinatown",
+              "value": "1641425",
+              "disabled": true
+            },
+            {
+              "label": "Нью-Кросс",
+              "value": "1762665"
+            },
+            {
+              "label": "Поплар",
+              "value": "10990276",
+              "disabled": true
+            },
+            {
+              "label": "Барнс",
+              "value": "10990909",
+              "disabled": true
+            },
+            {
+              "label": "Брикстон",
+              "value": "1695971",
+              "disabled": true
+            },
+            {
+              "label": "Уиллесден",
+              "value": "10990918",
+              "disabled": true
+            },
+            {
+              "label": "Боу",
+              "value": "10990920",
+              "disabled": true
+            },
+            {
+              "label": "Камберуэлл",
+              "value": "1695972",
+              "disabled": true
+            },
+            {
+              "label": "Уонстед",
+              "value": "10990942",
+              "disabled": true
+            },
+            {
+              "label": "Кенсал-Грин",
+              "value": "10990250",
+              "disabled": true
+            },
+            {
+              "label": "Харлингтон",
+              "value": "10674150",
+              "disabled": true
+            },
+            {
+              "label": "Ламбет",
+              "value": "1696008",
+              "disabled": true
+            },
+            {
+              "label": "Саутфилдс",
+              "value": "10990258",
+              "disabled": true
+            },
+            {
+              "label": "Тафнелл-Парк",
+              "value": "10990259",
+              "disabled": true
+            },
+            {
+              "label": "Харлсден",
+              "value": "10990263",
+              "disabled": true
+            },
+            {
+              "label": "Хануэлл",
+              "value": "10990244",
+              "disabled": true
+            },
+            {
+              "label": "Камден",
+              "value": "1695983",
+              "disabled": true
+            },
+            {
+              "label": "Южный Вудфорд",
+              "value": "10990952",
+              "disabled": true
+            },
+            {
+              "label": "Стадион Kennington",
+              "value": "1696002",
+              "disabled": true
+            },
+            {
+              "label": "Кранфорд",
+              "value": "550466",
+              "disabled": true
+            },
+            {
+              "label": "Брокли",
+              "value": "11427197"
+            },
+            {
+              "label": "Стамфорд-Хилл",
+              "value": "10990238",
+              "disabled": true
+            },
+            {
+              "label": "Плейстоу",
+              "value": "10990256",
+              "disabled": true
+            },
+            {
+              "label": "Куинс-Парк",
+              "value": "10990925",
+              "disabled": true
+            },
+            {
+              "label": "Клэптон",
+              "value": "11426549",
+              "disabled": true
+            },
+            {
+              "label": "Уолворт",
+              "value": "1696029",
+              "disabled": true
+            },
+            {
+              "label": "Ньюингтон",
+              "value": "1696069",
+              "disabled": true
+            },
+            {
+              "label": "Mayville Estate",
+              "value": "12531408",
+              "disabled": true
+            },
+            {
+              "label": "Мортлейк",
+              "value": "11427258",
+              "disabled": true
+            },
+            {
+              "label": "Аппер-Клаптон",
+              "value": "10565807",
+              "disabled": true
+            },
+            {
+              "label": "Саут-Ламбет",
+              "value": "12537471",
+              "disabled": true
+            },
+            {
+              "label": "Брондсбери",
+              "value": "11426702",
+              "disabled": true
+            },
+            {
+              "label": "Кабитт-Таун",
+              "value": "10565804",
+              "disabled": true
+            },
+            {
+              "label": "Bishop's",
+              "value": "12523089",
+              "disabled": true
+            },
+            {
+              "label": "Tokyngton",
+              "value": "12531260",
+              "disabled": true
+            },
+            {
+              "label": "Brunswick Park",
+              "value": "12523099",
+              "disabled": true
+            },
+            {
+              "label": "Stratford and New Town",
+              "value": "12522472",
+              "disabled": true
+            },
+            {
+              "label": "Boleyn",
+              "value": "12530635",
+              "disabled": true
+            },
+            {
+              "label": "Walbrook",
+              "value": "12531312",
+              "disabled": true
+            },
+            {
+              "label": "Welsh Harp",
+              "value": "12509090",
+              "disabled": true
+            },
+            {
+              "label": "Golden Lane Estate",
+              "value": "12531239",
+              "disabled": true
+            },
+            {
+              "label": "Aldgate",
+              "value": "12530532",
+              "disabled": true
+            },
+            {
+              "label": "Town",
+              "value": "12537647",
+              "disabled": true
+            },
+            {
+              "label": "Brownswood",
+              "value": "12537707",
+              "disabled": true
+            },
+            {
+              "label": "Northfield",
+              "value": "12514099",
+              "disabled": true
+            },
+            {
+              "label": "East Putney",
+              "value": "12514231",
+              "disabled": true
+            },
+            {
+              "label": "Bromley South",
+              "value": "12537561",
+              "disabled": true
+            },
+            {
+              "label": "Bunhill",
+              "value": "12514389",
+              "disabled": true
+            },
+            {
+              "label": "Haverstock",
+              "value": "12549519",
+              "disabled": true
+            },
+            {
+              "label": "Askew",
+              "value": "12523103",
+              "disabled": true
+            },
+            {
+              "label": "Evelyn",
+              "value": "12504720",
+              "disabled": true
+            },
+            {
+              "label": "King's Park",
+              "value": "12508992",
+              "disabled": true
+            },
+            {
+              "label": "South Camberwell",
+              "value": "12530659",
+              "disabled": true
+            },
+            {
+              "label": "St. Helen's",
+              "value": "12514267",
+              "disabled": true
+            },
+            {
+              "label": "Ист-Бедфонт",
+              "value": "12538122",
+              "disabled": true
+            },
+            {
+              "label": "Hanger Hill",
+              "value": "12509143",
+              "disabled": true
+            },
+            {
+              "label": "West Putney",
+              "value": "12528175",
+              "disabled": true
+            },
+            {
+              "label": "Wimbledon Park",
+              "value": "12537676",
+              "disabled": true
+            },
+            {
+              "label": "Colville",
+              "value": "12514158",
+              "disabled": true
+            },
+            {
+              "label": "Lansbury",
+              "value": "12504677",
+              "disabled": true
+            },
+            {
+              "label": "Whitton",
+              "value": "12528255",
+              "disabled": true
+            },
+            {
+              "label": "North Maida Vale",
+              "value": "12522445",
+              "disabled": true
+            },
+            {
+              "label": "Homerton",
+              "value": "12528218",
+              "disabled": true
+            },
+            {
+              "label": "North Kensington",
+              "value": "12543327",
+              "disabled": true
+            },
+            {
+              "label": "Belsize",
+              "value": "12514108",
+              "disabled": true
+            },
+            {
+              "label": "Queen's Gate",
+              "value": "12504608",
+              "disabled": true
+            },
+            {
+              "label": "Cornhill",
+              "value": "12537551",
+              "disabled": true
+            },
+            {
+              "label": "Pinkwell",
+              "value": "12523036",
+              "disabled": true
+            },
+            {
+              "label": "Courtfield",
+              "value": "12509134",
+              "disabled": true
+            },
+            {
+              "label": "St. Pancras and Somers Town",
+              "value": "12530631",
+              "disabled": true
+            },
+            {
+              "label": "Coldharbour",
+              "value": "12508860",
+              "disabled": true
+            },
+            {
+              "label": "Lime Street",
+              "value": "12504590",
+              "disabled": true
+            },
+            {
+              "label": "Canning Town North",
+              "value": "12514383",
+              "disabled": true
+            },
+            {
+              "label": "St. Dunstan's",
+              "value": "12514092",
+              "disabled": true
+            },
+            {
+              "label": "Riverside",
+              "value": "12514167",
+              "disabled": true
+            },
+            {
+              "label": "Trinity",
+              "value": "12528210",
+              "disabled": true
+            },
+            {
+              "label": "Bridge",
+              "value": "12523096",
+              "disabled": true
+            },
+            {
+              "label": "Cantelowes",
+              "value": "12514053",
+              "disabled": true
+            },
+            {
+              "label": "Tachbrook",
+              "value": "12546181",
+              "disabled": true
+            },
+            {
+              "label": "Shacklewell",
+              "value": "12523083",
+              "disabled": true
+            },
+            {
+              "label": "Ravenscourt Park",
+              "value": "12523005",
+              "disabled": true
+            },
+            {
+              "label": "Notting Dale",
+              "value": "12514251",
+              "disabled": true
+            },
+            {
+              "label": "Mildmay",
+              "value": "12546164",
+              "disabled": true
+            },
+            {
+              "label": "Bishopsgate",
+              "value": "12514259",
+              "disabled": true
+            },
+            {
+              "label": "Bryanston and Dorset Square",
+              "value": "12528221",
+              "disabled": true
+            },
+            {
+              "label": "Cathall",
+              "value": "12514197",
+              "disabled": true
+            },
+            {
+              "label": "St Luke's",
+              "value": "12531237",
+              "disabled": true
+            },
+            {
+              "label": "Parsons Green and Walham",
+              "value": "12509128",
+              "disabled": true
+            },
+            {
+              "label": "Syon",
+              "value": "12546176",
+              "disabled": true
+            },
+            {
+              "label": "Weavers",
+              "value": "12504678",
+              "disabled": true
+            },
+            {
+              "label": "Cann Hall",
+              "value": "12509083",
+              "disabled": true
+            },
+            {
+              "label": "Warwick",
+              "value": "12528275",
+              "disabled": true
+            },
+            {
+              "label": "Peninsula",
+              "value": "12508986",
+              "disabled": true
+            },
+            {
+              "label": "Livesey",
+              "value": "12528321",
+              "disabled": true
+            },
+            {
+              "label": "Stepney Green",
+              "value": "12531222",
+              "disabled": true
+            },
+            {
+              "label": "Queenstown",
+              "value": "12531319",
+              "disabled": true
+            },
+            {
+              "label": "Turnham Green",
+              "value": "12548059",
+              "disabled": true
+            },
+            {
+              "label": "Ealing Broadway",
+              "value": "12523039",
+              "disabled": true
+            },
+            {
+              "label": "Island Gardens",
+              "value": "12531274",
+              "disabled": true
+            },
+            {
+              "label": "Hackney Wick",
+              "value": "12514466",
+              "disabled": true
+            },
+            {
+              "label": "Clayhall",
+              "value": "12514193",
+              "disabled": true
+            },
+            {
+              "label": "Carnaby",
+              "value": "12528117",
+              "disabled": true
+            },
+            {
+              "label": "Highbury West",
+              "value": "12504722",
+              "disabled": true
+            },
+            {
+              "label": "Camberwell Green",
+              "value": "12531290",
+              "disabled": true
+            },
+            {
+              "label": "Shaftesbury",
+              "value": "12504696"
+            },
+            {
+              "label": "Churchill",
+              "value": "12514427",
+              "disabled": true
+            },
+            {
+              "label": "Green Street East",
+              "value": "12530639",
+              "disabled": true
+            },
+            {
+              "label": "Hoxton West",
+              "value": "12537558",
+              "disabled": true
+            },
+            {
+              "label": "South Hampstead",
+              "value": "12538271",
+              "disabled": true
+            },
+            {
+              "label": "Ealing Common",
+              "value": "12528242",
+              "disabled": true
+            },
+            {
+              "label": "Prince's",
+              "value": "12537555",
+              "disabled": true
+            },
+            {
+              "label": "Junction",
+              "value": "12509021",
+              "disabled": true
+            },
+            {
+              "label": "Canonbury",
+              "value": "12510954",
+              "disabled": true
+            },
+            {
+              "label": "Лиллингтон-энд-Лонгмур-Гарденс",
+              "value": "12528118",
+              "disabled": true
+            },
+            {
+              "label": "Coleman Street",
+              "value": "12528252",
+              "disabled": true
+            },
+            {
+              "label": "Abbey Road",
+              "value": "12514170",
+              "disabled": true
+            },
+            {
+              "label": "Thamesfield",
+              "value": "12523035",
+              "disabled": true
+            },
+            {
+              "label": "Norwood Green",
+              "value": "12528258",
+              "disabled": true
+            },
+            {
+              "label": "Leabridge",
+              "value": "12504559",
+              "disabled": true
+            },
+            {
+              "label": "Dudden Hill",
+              "value": "12514286",
+              "disabled": true
+            },
+            {
+              "label": "Барнсбери",
+              "value": "12533575",
+              "disabled": true
+            },
+            {
+              "label": "Vassall",
+              "value": "12528217",
+              "disabled": true
+            },
+            {
+              "label": "Plaistow South",
+              "value": "12514421",
+              "disabled": true
+            },
+            {
+              "label": "Telegraph Hill",
+              "value": "12537654",
+              "disabled": true
+            },
+            {
+              "label": "Harrow Road",
+              "value": "12541374",
+              "disabled": true
+            },
+            {
+              "label": "Woodberry Down",
+              "value": "12514111",
+              "disabled": true
+            },
+            {
+              "label": "Langbourn",
+              "value": "12514457",
+              "disabled": true
+            },
+            {
+              "label": "Ham, Petersham and Richmond Riverside",
+              "value": "12508846",
+              "disabled": true
+            },
+            {
+              "label": "South Acton",
+              "value": "12514067",
+              "disabled": true
+            },
+            {
+              "label": "Castle Baynard",
+              "value": "12504716",
+              "disabled": true
+            },
+            {
+              "label": "Cazenove",
+              "value": "12510969",
+              "disabled": true
+            },
+            {
+              "label": "St. Mary's",
+              "value": "12504570",
+              "disabled": true
+            },
+            {
+              "label": "Gospel Oak",
+              "value": "12525060",
+              "disabled": true
+            },
+            {
+              "label": "East Walworth",
+              "value": "12508974",
+              "disabled": true
+            },
+            {
+              "label": "Custom House",
+              "value": "12509020",
+              "disabled": true
+            },
+            {
+              "label": "Nightingale",
+              "value": "12514109",
+              "disabled": true
+            },
+            {
+              "label": "Norland",
+              "value": "12504576",
+              "disabled": true
+            },
+            {
+              "label": "Campden",
+              "value": "12528303",
+              "disabled": true
+            },
+            {
+              "label": "Уэст-Бедфонт",
+              "value": "12482544",
+              "disabled": true
+            },
+            {
+              "label": "Westbourne",
+              "value": "12523090",
+              "disabled": true
+            },
+            {
+              "label": "Abingdon",
+              "value": "12528304",
+              "disabled": true
+            },
+            {
+              "label": "Hallfield Estate",
+              "value": "12504641",
+              "disabled": true
+            },
+            {
+              "label": "North Woolwich",
+              "value": "12533114",
+              "disabled": true
+            },
+            {
+              "label": "Nunhead",
+              "value": "12514394",
+              "disabled": true
+            },
+            {
+              "label": "Chaucer",
+              "value": "12514138",
+              "disabled": true
+            },
+            {
+              "label": "Latchmere",
+              "value": "12514106",
+              "disabled": true
+            },
+            {
+              "label": "Hoe Street",
+              "value": "12514261",
+              "disabled": true
+            },
+            {
+              "label": "Brompton & Hans Town",
+              "value": "12523079",
+              "disabled": true
+            },
+            {
+              "label": "Village",
+              "value": "12514173",
+              "disabled": true
+            },
+            {
+              "label": "South Bermondsey",
+              "value": "12504672",
+              "disabled": true
+            },
+            {
+              "label": "Dollis Hill",
+              "value": "12528223",
+              "disabled": true
+            },
+            {
+              "label": "Cleveland",
+              "value": "12528301",
+              "disabled": true
+            },
+            {
+              "label": "Twickenham Riverside",
+              "value": "12522999",
+              "disabled": true
+            },
+            {
+              "label": "Feltham West",
+              "value": "12543338",
+              "disabled": true
+            },
+            {
+              "label": "Grange",
+              "value": "12537723",
+              "disabled": true
+            },
+            {
+              "label": "Victoria",
+              "value": "12514056",
+              "disabled": true
+            },
+            {
+              "label": "Dartmouth Park",
+              "value": "12514371",
+              "disabled": true
+            },
+            {
+              "label": "Haggerston",
+              "value": "12523007",
+              "disabled": true
+            },
+            {
+              "label": "St. George's",
+              "value": "12504575",
+              "disabled": true
+            },
+            {
+              "label": "Вестминстер",
+              "value": "12508950",
+              "disabled": true
+            },
+            {
+              "label": "Billingsgate",
+              "value": "12514262",
+              "disabled": true
+            },
+            {
+              "label": "Oval",
+              "value": "12543048",
+              "disabled": true
+            },
+            {
+              "label": "Cathedrals",
+              "value": "12531268",
+              "disabled": true
+            },
+            {
+              "label": "Woolwich Riverside",
+              "value": "12531300",
+              "disabled": true
+            },
+            {
+              "label": "Golborne",
+              "value": "12546152",
+              "disabled": true
+            },
+            {
+              "label": "Frognal and Fitzjohns",
+              "value": "12531314",
+              "disabled": true
+            },
+            {
+              "label": "Пентонвилл",
+              "value": "12533437",
+              "disabled": true
+            },
+            {
+              "label": "Childs Hill",
+              "value": "12509114",
+              "disabled": true
+            },
+            {
+              "label": "St. Mary's Park",
+              "value": "12514087",
+              "disabled": true
+            },
+            {
+              "label": "Munster",
+              "value": "12528302",
+              "disabled": true
+            },
+            {
+              "label": "Queenhithe",
+              "value": "12537718",
+              "disabled": true
+            },
+            {
+              "label": "Cripplegate",
+              "value": "12531278",
+              "disabled": true
+            },
+            {
+              "label": "South Twickenham",
+              "value": "12514384",
+              "disabled": true
+            },
+            {
+              "label": "Shadwell",
+              "value": "12514399",
+              "disabled": true
+            },
+            {
+              "label": "Avonmore and Brook Green",
+              "value": "12522483",
+              "disabled": true
+            },
+            {
+              "label": "South Richmond",
+              "value": "12537674",
+              "disabled": true
+            },
+            {
+              "label": "East Sheen",
+              "value": "12528247",
+              "disabled": true
+            },
+            {
+              "label": "Swiss Cottage",
+              "value": "12504574",
+              "disabled": true
+            },
+            {
+              "label": "Wembley Central",
+              "value": "12523107",
+              "disabled": true
+            },
+            {
+              "label": "Surrey Docks",
+              "value": "12508849",
+              "disabled": true
+            },
+            {
+              "label": "East Acton",
+              "value": "12508988",
+              "disabled": true
+            },
+            {
+              "label": "Faraday",
+              "value": "12522996",
+              "disabled": true
+            },
+            {
+              "label": "Southall Green",
+              "value": "12514110",
+              "disabled": true
+            },
+            {
+              "label": "St. Margarets and North Twickenham",
+              "value": "12514132",
+              "disabled": true
+            },
+            {
+              "label": "Fairfield",
+              "value": "12549522"
+            },
+            {
+              "label": "Larkhall",
+              "value": "12541382",
+              "disabled": true
+            },
+            {
+              "label": "Hounslow Central",
+              "value": "12538316",
+              "disabled": true
+            },
+            {
+              "label": "Addison",
+              "value": "12514462",
+              "disabled": true
+            },
+            {
+              "label": "Vintry",
+              "value": "12514161",
+              "disabled": true
+            },
+            {
+              "label": "Vincent Square",
+              "value": "12504723",
+              "disabled": true
+            },
+            {
+              "label": "Walpole",
+              "value": "12531316",
+              "disabled": true
+            },
+            {
+              "label": "Clissold",
+              "value": "12504578",
+              "disabled": true
+            },
+            {
+              "label": "Barnhill",
+              "value": "12528296",
+              "disabled": true
+            },
+            {
+              "label": "Хитроу",
+              "value": "12541405",
+              "disabled": true
+            },
+            {
+              "label": "North End",
+              "value": "12530542",
+              "disabled": true
+            },
+            {
+              "label": "Redcliffe",
+              "value": "12537546",
+              "disabled": true
+            },
+            {
+              "label": "Кингс-Кросс",
+              "value": "12528170",
+              "disabled": true
+            },
+            {
+              "label": "Wandsworth Common",
+              "value": "12537670",
+              "disabled": true
+            },
+            {
+              "label": "Northcote",
+              "value": "12530633",
+              "disabled": true
+            },
+            {
+              "label": "Fulham Broadway",
+              "value": "12522473",
+              "disabled": true
+            },
+            {
+              "label": "Hackney Downs",
+              "value": "12514201",
+              "disabled": true
+            },
+            {
+              "label": "Somers Town",
+              "value": "12522436",
+              "disabled": true
+            },
+            {
+              "label": "Bromley North",
+              "value": "12514198",
+              "disabled": true
+            },
+            {
+              "label": "Hillside",
+              "value": "12523019",
+              "disabled": true
+            },
+            {
+              "label": "Dalgarno",
+              "value": "12543047",
+              "disabled": true
+            },
+            {
+              "label": "The Lane",
+              "value": "12537587",
+              "disabled": true
+            },
+            {
+              "label": "Hammersmith Broadway",
+              "value": "12522997",
+              "disabled": true
+            },
+            {
+              "label": "Mapesbury",
+              "value": "12514148",
+              "disabled": true
+            },
+            {
+              "label": "Cordwainer",
+              "value": "12537582",
+              "disabled": true
+            },
+            {
+              "label": "Knightsbridge and Belgravia",
+              "value": "12504680",
+              "disabled": true
+            },
+            {
+              "label": "Lancaster Gate",
+              "value": "12537698",
+              "disabled": true
+            },
+            {
+              "label": "Greenwich West",
+              "value": "12537528",
+              "disabled": true
+            },
+            {
+              "label": "Ferndale",
+              "value": "12530553",
+              "disabled": true
+            },
+            {
+              "label": "Chelsea Riverside",
+              "value": "12508973",
+              "disabled": true
+            },
+            {
+              "label": "Dowgate",
+              "value": "12504571",
+              "disabled": true
+            },
+            {
+              "label": "Fairfield",
+              "value": "12528191",
+              "disabled": true
+            },
+            {
+              "label": "Pembridge",
+              "value": "12528186",
+              "disabled": true
+            },
+            {
+              "label": "Hounslow Heath",
+              "value": "12549607"
+            },
+            {
+              "label": "Canning Town South",
+              "value": "12537679",
+              "disabled": true
+            },
+            {
+              "label": "Southfield",
+              "value": "12528279",
+              "disabled": true
+            },
+            {
+              "label": "Royal Docks",
+              "value": "12528204",
+              "disabled": true
+            },
+            {
+              "label": "Найн-Элмс",
+              "value": "12523667",
+              "disabled": true
+            },
+            {
+              "label": "Chiswick Riverside",
+              "value": "12543067",
+              "disabled": true
+            },
+            {
+              "label": "North Richmond",
+              "value": "12531279",
+              "disabled": true
+            },
+            {
+              "label": "Elthorne",
+              "value": "12528268",
+              "disabled": true
+            },
+            {
+              "label": "Чок-Фарм",
+              "value": "12504636",
+              "disabled": true
+            },
+            {
+              "label": "Ladbroke Grove",
+              "value": "12531240",
+              "disabled": true
+            },
+            {
+              "label": "Elephant and Castle",
+              "value": "12532888",
+              "disabled": true
+            },
+            {
+              "label": "Hillrise",
+              "value": "12528282",
+              "disabled": true
+            },
+            {
+              "label": "College Park and Old Oak",
+              "value": "12509011",
+              "disabled": true
+            },
+            {
+              "label": "Fortune Green",
+              "value": "12535010",
+              "disabled": true
+            },
+            {
+              "label": "Palace Riverside",
+              "value": "12537533",
+              "disabled": true
+            },
+            {
+              "label": "Waddon",
+              "value": "12543033",
+              "disabled": true
+            },
+            {
+              "label": "Hackney Central",
+              "value": "12531258",
+              "disabled": true
+            },
+            {
+              "label": "Portsoken",
+              "value": "12514458",
+              "disabled": true
+            },
+            {
+              "label": "Cranbrook",
+              "value": "12530552",
+              "disabled": true
+            },
+            {
+              "label": "Heston Central",
+              "value": "12547985",
+              "disabled": true
+            },
+            {
+              "label": "Valentines",
+              "value": "12514257",
+              "disabled": true
+            },
+            {
+              "label": "Bow West",
+              "value": "12508861",
+              "disabled": true
+            },
+            {
+              "label": "Feltham North",
+              "value": "12539437",
+              "disabled": true
+            },
+            {
+              "label": "Finsbury Park",
+              "value": "12528168",
+              "disabled": true
+            },
+            {
+              "label": "Heathfield",
+              "value": "12530632",
+              "disabled": true
+            },
+            {
+              "label": "Brondesbury Park",
+              "value": "12537547",
+              "disabled": true
+            },
+            {
+              "label": "Camden Town with Primrose Hill",
+              "value": "12541373",
+              "disabled": true
+            },
+            {
+              "label": "Snaresbrook",
+              "value": "12504707",
+              "disabled": true
+            },
+            {
+              "label": "Green Street West",
+              "value": "12509023",
+              "disabled": true
+            },
+            {
+              "label": "Preston",
+              "value": "12523084",
+              "disabled": true
+            },
+            {
+              "label": "Tollington",
+              "value": "12514449",
+              "disabled": true
+            },
+            {
+              "label": "De Beauvoir",
+              "value": "12509127",
+              "disabled": true
+            },
+            {
+              "label": "Stonebridge",
+              "value": "12522480"
+            },
+            {
+              "label": "Westbourne Green",
+              "value": "12533107",
+              "disabled": true
+            },
+            {
+              "label": "Sands End",
+              "value": "12523049",
+              "disabled": true
+            },
+            {
+              "label": "Вест-Энд",
+              "value": "1632903",
+              "disabled": true
+            },
+            {
+              "label": "Риджентс-Парк",
+              "value": "12683850",
+              "disabled": true
+            }
+          ]
+        },
+        "accommodationType": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Агротуризм",
+              "value": "40",
+              "disabled": true
+            },
+            {
+              "label": "Апарт-отели",
+              "value": "20",
+              "disabled": true
+            },
+            {
+              "label": "Виллы",
+              "value": "14",
+              "disabled": true
+            },
+            {
+              "label": "Гостевые дома",
+              "value": "30",
+              "disabled": true
+            },
+            {
+              "label": "Гостиницы",
+              "value": "8",
+              "disabled": true
+            },
+            {
+              "label": "Дома для отпуска",
+              "value": "4",
+              "disabled": true
+            },
+            {
+              "label": "Домики",
+              "value": "9",
+              "disabled": true
+            },
+            {
+              "label": "Загородные дома",
+              "value": "24",
+              "disabled": true
+            },
+            {
+              "label": "Капсульные отели",
+              "value": "43",
+              "disabled": true
+            },
+            {
+              "label": "Квартиры ",
+              "value": "15",
+              "disabled": true
+            },
+            {
+              "label": "Коттеджи",
+              "value": "11",
+              "disabled": true
+            },
+            {
+              "label": "Мини-отели",
+              "value": "5",
+              "disabled": true
+            },
+            {
+              "label": "Мотели",
+              "value": "7",
+              "disabled": true
+            },
+            {
+              "label": "Отели",
+              "value": "1"
+            },
+            {
+              "label": "Плавучие дома",
+              "value": "16",
+              "disabled": true
+            },
+            {
+              "label": "Стоянки для автофургонов",
+              "value": "21",
+              "disabled": true
+            },
+            {
+              "label": "Хостелы",
+              "value": "12"
+            }
+          ]
+        },
+        "facilities": {
+          "applied": false,
+          "items": [
+            {
+              "label": "В цену включен Wi-Fi",
+              "value": "527"
+            },
+            {
+              "label": "Для некурящих",
+              "value": "529"
+            },
+            {
+              "label": "Завтрак включен",
+              "value": "2048"
+            },
+            {
+              "label": "Казино",
+              "value": "2112",
+              "disabled": true
+            },
+            {
+              "label": "Круглосуточная стойка регистрации",
+              "value": "2063"
+            },
+            {
+              "label": "Парковка",
+              "value": "134234112"
+            },
+            {
+              "label": "Пункт зарядки электромобилей",
+              "value": "1073743315"
+            },
+            {
+              "label": "Разрешено проживание с домашними животными",
+              "value": "64"
+            },
+            {
+              "label": "С баром",
+              "value": "515"
+            },
+            {
+              "label": "С бассейном",
+              "value": "128",
+              "disabled": true
+            },
+            {
+              "label": "С бизнес-услугами",
+              "value": "519"
+            },
+            {
+              "label": "С ванной в номере",
+              "value": "517"
+            },
+            {
+              "label": "С детскими кроватками",
+              "value": "525"
+            },
+            {
+              "label": "С доступом в интернет",
+              "value": "8"
+            },
+            {
+              "label": "С зонами для курения",
+              "value": "537"
+            },
+            {
+              "label": "С конференц-залами",
+              "value": "1"
+            },
+            {
+              "label": "С кухней",
+              "value": "32",
+              "disabled": true
+            },
+            {
+              "label": "С местом для хранения лыж",
+              "value": "533",
+              "disabled": true
+            },
+            {
+              "label": "Со смежными номерами",
+              "value": "523"
+            },
+            {
+              "label": "Со спа-салоном",
+              "value": "539",
+              "disabled": true
+            },
+            {
+              "label": "Со спортзалом",
+              "value": "2"
+            },
+            {
+              "label": "С присмотром за детьми",
+              "value": "521",
+              "disabled": true
+            },
+            {
+              "label": "С рестораном",
+              "value": "256"
+            },
+            {
+              "label": "С трансфером до аэропорта",
+              "value": "513",
+              "disabled": true
+            }
+          ]
+        },
+        "accessibility": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Безбарьерный доступ",
+              "value": "65536"
+            },
+            {
+              "label": "Безбарьерный душ",
+              "value": "262144"
+            },
+            {
+              "label": "Ванная для маломобильных гостей",
+              "value": "131072"
+            },
+            {
+              "label": "Номера для маломобильных гостей",
+              "value": "541"
+            },
+            {
+              "label": "Оборудование для слабослышащих",
+              "value": "2097152"
+            },
+            {
+              "label": "Парковка, приспособленная для маломобильных гостей",
+              "value": "524288"
+            },
+            {
+              "label": "Тактильные указатели со шрифтом Брайля или рельефным шрифтом",
+              "value": "4194304",
+              "disabled": true
+            },
+            {
+              "label": "Удобства в номерах для маломобильных гостей",
+              "value": "1048576"
+            }
+          ]
+        },
+        "themesAndTypes": {
+          "applied": false,
+          "items": [
+            {
+              "label": "Бутик",
+              "value": "4",
+              "disabled": true
+            },
+            {
+              "label": "Для активного отдыха",
+              "value": "18",
+              "disabled": true
+            },
+            {
+              "label": "Для гольфа",
+              "value": "26",
+              "disabled": true
+            },
+            {
+              "label": "Для деловых людей",
+              "value": "14"
+            },
+            {
+              "label": "Для семейного отдыха",
+              "value": "25"
+            },
+            {
+              "label": "Для шопинга",
+              "value": "17",
+              "disabled": true
+            },
+            {
+              "label": "Исторические",
+              "value": "2",
+              "disabled": true
+            },
+            {
+              "label": "Класса «люкс»",
+              "value": "15",
+              "disabled": true
+            },
+            {
+              "label": "На виноградниках",
+              "value": "19",
+              "disabled": true
+            },
+            {
+              "label": "Обслуживание гостей ЛГБТК",
+              "value": "21"
+            },
+            {
+              "label": "Пляжные",
+              "value": "6",
+              "disabled": true
+            },
+            {
+              "label": "С казино",
+              "value": "8",
+              "disabled": true
+            },
+            {
+              "label": "Спа",
+              "value": "27",
+              "disabled": true
+            }
+          ]
+        },
+        "price": {
+          "label": "Стоимость (общая)",
+          "range": {
+            "min": {
+              "defaultValue": 0,
+              "value": 10
+            },
+            "max": {
+              "defaultValue": 500,
+              "value": 50
+            },
+            "increments": 5
+          },
+          "multiplier": 1,
+          "applied": true
+        },
+        "welcomeRewards": {
+          "label": "Hotels.com™ Rewards",
+          "items": [
+            {
+              "label": "Получите штампы",
+              "value": "collect"
+            },
+            {
+              "label": "Используйте бонусные* сутки",
+              "value": "redeem"
+            }
+          ]
+        }
+      },
+      "pointOfSale": {
+        "currency": {
+          "code": "USD",
+          "symbol": "$",
+          "separators": ",.",
+          "format": "${0}"
+        }
+      },
+      "miscellaneous": {
+        "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=DISTANCE_FROM_LANDMARK&rooms=1&destRegionID=549499&hotelIds=470429,470411,557618,623528,402789,305427,711429824,571728,752151360,205709,188332,532788,7340448,225395,183508,361914,569455&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=aa016fc5-4c88-4e50-a75b-4b34b56b44db&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=ru_RU&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=ru.hotels.com&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1",
+        "showLegalInfoForStrikethroughPrices": true,
+        "legalInfoForStrikethroughPrices": "Зачеркнутая цена основана на стандартном тарифе в нашем приложении, установленном и предоставленном объектом размещения."
+      },
+      "pageInfo": {
+        "pageType": "dateless"
+      }
+    },
+    "common": {
+      "pointOfSale": {
+        "numberSeparators": " ,",
+        "brandName": "Hotels.com"
+      },
+      "tracking": {
+        "omniture": {
+          "s.prop33": "D=v33",
+          "s.prop32": "D=v43",
+          "s.prop74": "search result without dates | ms shown | N",
+          "s.products": "MULTISOURCE;8800781,MULTISOURCE;8800275,MULTISOURCE;12706774",
+          "s.eVar16": "Mob :: aApp",
+          "s.eVar40": "D=v0",
+          "s.eVar41": "USD",
+          "s.eVar63": "a215eb63-125a-464b-9207-315bc95c3708",
+          "s.eVar42": "dateless",
+          "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar43": "ru_RU|HCOM_RU|ru.hotels.com",
+          "s.eVar2": "Лондон, Англия, Великобритания",
+          "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+          "s.eVar7": "",
+          "s.server": "ru.hotels.com",
+          "s.eVar6": "549499",
+          "s.prop29": "D=v42",
+          "s.prop27": "aa016fc5-4c88-4e50-a75b-4b34b56b44db",
+          "s.eVar9": "Distance to other landmark near to far",
+          "s.prop22": "Price - USD10-50",
+          "s.eVar69": "Mob :: aApp",
+          "s.currencyCode": "USD",
+          "s.eVar26": "US:TX:GRANDPRAIRIE:623",
+          "s.eVar29": "Mob :: aApp",
+          "s.prop9": "17",
+          "s.eVar95": "Unknown",
+          "s.prop7": "17",
+          "s.eVar31": "D=v0",
+          "s.eVar10": "Price - USD10-50",
+          "s.eVar32": "D=v0",
+          "s.eVar33": "search result without dates",
+          "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.001,M4961:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.0,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:006.002,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.000",
+          "s.eVar13": "389273",
+          "s.events": "event324,event320",
+          "s.prop18": "D=v6",
+          "s.prop5": "389273",
+          "s.prop15": "",
+          "s.prop3": "Лондон, Англия, Великобритания",
+          "s.prop14": "D=v7",
+          "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+          "s.eVar93": "aws.us-west-2.unknown",
+          "s.prop2": "Distance to other landmark near to far"
+        }
+      }
+    }
+  }
+}
