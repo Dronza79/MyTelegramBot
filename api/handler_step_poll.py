@@ -23,7 +23,7 @@ def get_min_and_max_value(message):
     poll = history[user][len(history[user]) - 1]
     poll.price_min = min_p
     poll.price_max = max_p
-    bot.send_message(message.from_user.id, 'Укажите планируемые даты посещения в формате dd/mm/yy-dd/mm/yy')
+    bot.send_message(message.from_user.id, 'Укажите планируемые даты посещения в формате\ndd/mm/yy-dd/mm/yy')
     bot.register_next_step_handler(message, get_checkin_checkout)
 
 
@@ -74,12 +74,13 @@ def get_answer(call):
         bot.register_next_step_handler(msg, get_photos)
     else:
         for hotel_id, hotel_name, string in display_result_getting_list_hotels(poll.city_id,
-                                                                poll.number_hotels,
-                                                                poll.sort_filter,
-                                                                poll.deltatime,
-                                                                poll.price_min,
-                                                                poll.price_max):
+                                                                               poll.number_hotels,
+                                                                               poll.sort_filter,
+                                                                               poll.deltatime,
+                                                                               poll.price_min,
+                                                                               poll.price_max):
             poll.list_foto[hotel_id] = hotel_name
+            print(poll.list_foto)
             bot.send_message(user, text=string, parse_mode='html')
         return_key = InlineKeyboardMarkup()
         return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
@@ -99,11 +100,11 @@ def get_photos(message):
         return
     poll = history[user][len(history[user]) - 1]
     for hotel_id, hotel_name, string in display_result_getting_list_hotels(poll.city_id,
-                                                            poll.number_hotels,
-                                                            poll.sort_filter,
-                                                            poll.deltatime,
-                                                            poll.price_min,
-                                                            poll.price_max):
+                                                                           poll.number_hotels,
+                                                                           poll.sort_filter,
+                                                                           poll.deltatime,
+                                                                           poll.price_min,
+                                                                           poll.price_max):
         hotel_foto = give_list_photos_of_hotel(hotel_id, hotel_name, num_foto)
         print(f'{hotel_id}: {hotel_foto}')
         poll.list_foto[hotel_id] = hotel_foto
@@ -113,9 +114,9 @@ def get_photos(message):
                              text='Ошибка: Фотографии загрузить не удалось',
                              reply_to_message_id=msg.message_id)
             continue
-        list_foto = [InputMediaPhoto(foto) for foto in hotel_foto]
-        msg = bot.send_message(user, text=string, parse_mode='html')
-        bot.send_media_group(user, list_foto, reply_to_message_id=msg.id)
+        list_foto = [InputMediaPhoto(foto) for foto in hotel_foto[1:]]
+        bot.send_message(user, text=string, parse_mode='html')
+        bot.send_media_group(user, list_foto)
     return_key = InlineKeyboardMarkup()
     return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
     bot.send_message(user, text='Доклад закончил...', reply_markup=return_key)

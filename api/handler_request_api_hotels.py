@@ -55,10 +55,12 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, timedelta, p_
         hotel_id = hotel.get('id')
         hotel_name = hotel.get('name')
         try:
-            price = f"{str(hotel.get('ratePlan').get('price').get('exactCurrent'))}"
+            price = hotel.get('ratePlan').get('price').get('exactCurrent')
+            total = round(price * timedelta, 2)
         except Exception as exc:
             print(hotel_id, "Ошибка:", exc)
             price = 'Цену получить не удалось...'
+            total = 'Цену получить не удалось...'
         substring = ''
         for loc in hotel.get('landmarks'):
             substring += f'\n{loc.get("label")} - {loc.get("distance")}'
@@ -66,9 +68,10 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, timedelta, p_
             f"<b>{count} вариант:</b>\n"
             f"{'*' * 50}\n"
             f"Отель: {hotel_name}\nАдрес: {address}\nРасположен от: {substring}"
-            f"URL: hotels.com/ho{hotel_id}"
             f"\nЦена за сутки: $ {price}"
-            f"\nЦена за весь срок: $ {price * timedelta}")
+            f"\nЦена за весь срок: $ {total}"
+            f"\nсайт: www.hotels.com/ho{hotel_id}")
+
         yield hotel_id, hotel_name, string
 
 

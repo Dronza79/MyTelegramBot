@@ -45,5 +45,5 @@ def get_city_name_for_lowprice(message):  # получаем город, ини�
         bot.register_next_step_handler(msg, get_city_name_for_lowprice)
         return
     bot.send_message(message.from_user.id, 'Хорошо. Продолжим...')
-    bot.send_message(message.from_user.id, 'Укажите планируемые даты посещения в формате dd/mm/yy-dd/mm/yy')
+    bot.send_message(message.from_user.id, 'Укажите планируемые даты посещения в формате\ndd/mm/yy-dd/mm/yy')
     bot.register_next_step_handler(message, get_checkin_checkout)
