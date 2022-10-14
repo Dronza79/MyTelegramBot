@@ -14,6 +14,8 @@ class BestDeal:
         self.list_foto = dict()
         self.price_min = None
         self.price_max = None
+        self.checkin = None
+        self.checkout = None
         self.sort_filter = 'DISTANCE_FROM_LANDMARK'
 
     def __repr__(self):

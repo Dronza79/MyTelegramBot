@@ -1,7 +1,6 @@
 import time
 
-from api.big_text import ATTENTION
-from api.handler_step_poll import get_number_hotels
+from api.handler_step_poll import get_checkin_checkout
 from api.handler_request_api_hotels import get_index_named_city
 from loader import bot, history
 
@@ -15,6 +14,8 @@ class HighPrice:
         self.list_foto = dict()
         self.price_min = None
         self.price_max = None
+        self.checkin = None
+        self.checkout = None
         self.sort_filter = 'PRICE_HIGHEST_FIRST'
 
     def __repr__(self):
@@ -43,5 +44,5 @@ def get_city_name_for_highprice(message):  # получаем город, ини
         bot.register_next_step_handler(msg, get_city_name_for_highprice)
         return
     bot.send_message(message.from_user.id, 'Хорошо. Продолжим...')
-    bot.send_message(message.from_user.id, 'Укажите количество отелей (не более 25)')
-    bot.register_next_step_handler(message, get_number_hotels)
+    bot.send_message(message.from_user.id, 'Укажите планируемые даты посещения в формате dd/mm/yy-dd/mm/yy')
+    bot.register_next_step_handler(message, get_checkin_checkout)

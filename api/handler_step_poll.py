@@ -1,4 +1,6 @@
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
+import re
+import time
 
 from loader import bot, history
 from api.big_text import ANSWER
@@ -21,21 +23,39 @@ def get_min_and_max_value(message):
     poll = history[user][len(history[user]) - 1]
     poll.price_min = min_p
     poll.price_max = max_p
-    bot.send_message(message.from_user.id, 'Укажите количество отелей (не более 25)')
-    bot.register_next_step_handler(message, get_number_hotels)
+    bot.send_message(message.from_user.id, 'Укажите планируемые даты посещения в формате dd/mm/yy-dd/mm/yy')
+    bot.register_next_step_handler(message, get_checkin_checkout)
+
+
+def get_checkin_checkout(message):
+    string = message.text
+    user = message.chat.id
+    if re.fullmatch('[0123]\d/[01]\d/2[23]-[0123]\d/[01]\d/2[23]', string):
+        if all(map(lambda lst: 0 < int(lst.split('/')[0]) <= 31 and
+                               0 < int(lst.split('/')[1]) <= 12,
+                   string.split('-'))):
+            now = time.time()
+            checkin = time.mktime(time.strptime(string.split('-')[0], '%d/%m/%y'))
+            checkout = time.mktime(time.strptime(string.split('-')[1], '%d/%m/%y'))
+            if now <= checkin < checkout:
+                poll = history[user][len(history[user]) - 1]
+                poll.checkin = checkin
+                poll.checkout = checkout
+                msg = bot.send_message(user, text='Введите количество отелей')
+                bot.register_next_step_handler(msg, get_number_hotels)
+                return
+    msg = bot.send_message(user, text='Ошибка: Неверный тип значений.\n(Ожидаются формат dd/mm/yy-dd/mm/yy).')
+    bot.register_next_step_handler(msg, get_checkin_checkout)
 
 
 def get_number_hotels(message):  # получаем количество отелей
     number_hotels = message.text
     user = message.chat.id
-    if not number_hotels.isdigit():
-        msg = bot.send_message(message.from_user.id, text='Ошибка. Должна быть цифра')
+    if not number_hotels.isdigit() or not 0 < int(number_hotels) <= 25:
+        msg = bot.send_message(message.from_user.id, text='Ошибка. Неверное значение. (ожидается цифра не более 25)')
         bot.register_next_step_handler(msg, get_number_hotels)
         return
-    if int(number_hotels) > 25:
-        msg = bot.send_message(message.from_user.id, text='Ошибка. Должно быть не более 25')
-        bot.register_next_step_handler(msg, get_number_hotels)
-        return
+
     poll = history[user][len(history[user]) - 1]
     poll.number_hotels = number_hotels
     choice = InlineKeyboardMarkup()
