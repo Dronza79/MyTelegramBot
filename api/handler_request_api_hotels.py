@@ -28,7 +28,7 @@ def get_index_named_city(city):
     return index
 
 
-def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, p_to=None):
+def display_result_getting_list_hotels(town_id, amount_htls, sort, timedelta, p_from=None, p_to=None):
     print(f'ИД города: {town_id}, кол-во отелей: {amount_htls}, условие сортировки: {sort}')
     url = "https://hotels4.p.rapidapi.com/properties/list"
     querystring = {"destinationId": town_id, "pageNumber": "1", "pageSize": amount_htls,
@@ -53,6 +53,7 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
             region = hotel.get('address').get('region')
             address = f"{hotel['address']['locality']}. {region}"
         hotel_id = hotel.get('id')
+        hotel_name = hotel.get('name')
         try:
             price = f"{str(hotel.get('ratePlan').get('price').get('exactCurrent'))}"
         except Exception as exc:
@@ -64,14 +65,16 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, p_from=None, 
         string = (
             f"<b>{count} вариант:</b>\n"
             f"{'*' * 50}\n"
-            f"Отель: {hotel.get('name')}\nАдрес: {address}\nРасположен от: {substring}"
-            f"\nЦена за сутки: $ {price}")
-        yield hotel_id, string
+            f"Отель: {hotel_name}\nАдрес: {address}\nРасположен от: {substring}"
+            f"URL: hotels.com/ho{hotel_id}"
+            f"\nЦена за сутки: $ {price}"
+            f"\nЦена за весь срок: $ {price * timedelta}")
+        yield hotel_id, hotel_name, string
 
 
-def give_list_photos_of_hotel(id_hotel, num_fotos):
+def give_list_photos_of_hotel(id_hotel, name, num_fotos):
     num = int(num_fotos)
-    list_foto = []
+    list_foto = [name]
     url = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
     querystring = {"id": id_hotel}
     headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}

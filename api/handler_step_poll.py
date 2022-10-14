@@ -34,13 +34,14 @@ def get_checkin_checkout(message):
         if all(map(lambda lst: 0 < int(lst.split('/')[0]) <= 31 and
                                0 < int(lst.split('/')[1]) <= 12,
                    string.split('-'))):
-            now = time.time()
-            checkin = time.mktime(time.strptime(string.split('-')[0], '%d/%m/%y'))
-            checkout = time.mktime(time.strptime(string.split('-')[1], '%d/%m/%y'))
+            now = time.localtime()
+            checkin = time.strptime(string.split('-')[0], '%d/%m/%y')
+            checkout = time.strptime(string.split('-')[1], '%d/%m/%y')
             if now <= checkin < checkout:
                 poll = history[user][len(history[user]) - 1]
                 poll.checkin = checkin
                 poll.checkout = checkout
+                poll.deltatime = checkout[7] - checkin[7]
                 msg = bot.send_message(user, text='Введите количество отелей')
                 bot.register_next_step_handler(msg, get_number_hotels)
                 return
@@ -72,11 +73,13 @@ def get_answer(call):
         msg = bot.send_message(call.from_user.id, text='Укажите количество (не более 10):')
         bot.register_next_step_handler(msg, get_photos)
     else:
-        for hotel, string in display_result_getting_list_hotels(poll.city_id,
+        for hotel_id, hotel_name, string in display_result_getting_list_hotels(poll.city_id,
                                                                 poll.number_hotels,
                                                                 poll.sort_filter,
+                                                                poll.deltatime,
                                                                 poll.price_min,
                                                                 poll.price_max):
+            poll.list_foto[hotel_id] = hotel_name
             bot.send_message(user, text=string, parse_mode='html')
         return_key = InlineKeyboardMarkup()
         return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
@@ -95,14 +98,15 @@ def get_photos(message):
         bot.register_next_step_handler(msg, get_photos)
         return
     poll = history[user][len(history[user]) - 1]
-    for hotel, string in display_result_getting_list_hotels(poll.city_id,
+    for hotel_id, hotel_name, string in display_result_getting_list_hotels(poll.city_id,
                                                             poll.number_hotels,
                                                             poll.sort_filter,
+                                                            poll.deltatime,
                                                             poll.price_min,
                                                             poll.price_max):
-        hotel_foto = give_list_photos_of_hotel(hotel, num_foto)
-        print(f'{hotel}: {hotel_foto}')
-        poll.list_foto[hotel] = hotel_foto
+        hotel_foto = give_list_photos_of_hotel(hotel_id, hotel_name, num_foto)
+        print(f'{hotel_id}: {hotel_foto}')
+        poll.list_foto[hotel_id] = hotel_foto
         if not hotel_foto:
             msg = bot.send_message(user, text=string)
             bot.send_message(user,

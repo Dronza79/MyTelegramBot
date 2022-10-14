@@ -16,6 +16,7 @@ class LowPrice:
         self.price_max = None
         self.checkin = None
         self.checkout = None
+        self.deltatime = None
         self.sort_filter = 'PRICE'
 
     def __repr__(self):
