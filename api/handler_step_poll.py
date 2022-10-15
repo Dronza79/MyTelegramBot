@@ -43,18 +43,18 @@ def get_checkin_checkout(message):
                 poll.checkout = checkout
                 poll.deltatime = checkout[7] - checkin[7]
                 msg = bot.send_message(user, text='Введите количество отелей')
-                bot.register_next_step_handler(msg, get_number_hotels)
+                bot.register_next_step_handler(msg, get_amount_hotels)
                 return
     msg = bot.send_message(user, text='Ошибка: Неверный тип значений.\n(Ожидаются формат dd/mm/yy-dd/mm/yy).')
     bot.register_next_step_handler(msg, get_checkin_checkout)
 
 
-def get_number_hotels(message):  # получаем количество отелей
+def get_amount_hotels(message):  # получаем количество отелей
     number_hotels = message.text
     user = message.chat.id
     if not number_hotels.isdigit() or not 0 < int(number_hotels) <= 25:
         msg = bot.send_message(message.from_user.id, text='Ошибка. Неверное значение. (ожидается цифра не более 25)')
-        bot.register_next_step_handler(msg, get_number_hotels)
+        bot.register_next_step_handler(msg, get_amount_hotels)
         return
 
     poll = history[user][len(history[user]) - 1]

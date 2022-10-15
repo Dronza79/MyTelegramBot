@@ -56,7 +56,7 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, timedelta, p_
         hotel_name = hotel.get('name')
         try:
             price = hotel.get('ratePlan').get('price').get('exactCurrent')
-            total = round(price * timedelta, 2)
+            total = f'{price * timedelta: .2f}'
         except Exception as exc:
             print(hotel_id, "Ошибка:", exc)
             price = 'Цену получить не удалось...'
