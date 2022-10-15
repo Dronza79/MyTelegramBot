@@ -34,11 +34,13 @@ def text_command_chat(message):
 def run_maim_menu(call):
 
     if 'help' in call.data:
+        bot.delete_message(call.message.chat.id, call.message.message_id)
         start_work = InlineKeyboardMarkup()
         start_work.add(InlineKeyboardButton(text='Начать работу', callback_data='go'))
         bot.send_message(call.from_user.id, text=HELP_ANSWER, reply_markup=start_work)
 
     elif 'go' in call.data:
+        bot.delete_message(call.message.chat.id, call.message.message_id)
         main_menu = InlineKeyboardMarkup()
         buttons = [InlineKeyboardButton(text=GEN_KEYB[key], callback_data=key) for key in [
             'lowprice', 'highprice', 'bestdeal', 'history']]
@@ -74,14 +76,17 @@ def get_text_command_bestdeal(message):
 def start_keyb_command(call):
     txt = ''
     if 'lowprice' in call.data:
+        bot.delete_message(call.message.chat.id, call.message.message_id)
         command = lowprice.get_city_name_for_lowprice
         txt = '<b>Выбраны дешёвые отели</b>'
 
     elif 'highprice' in call.data:
+        bot.delete_message(call.message.chat.id, call.message.message_id)
         command = highprice.get_city_name_for_highprice
         txt = '<b>Выбраны дорогие отели</b>'
 
     elif 'bestdeal' in call.data:
+        bot.delete_message(call.message.chat.id, call.message.message_id)
         command = bestdeal.get_city_name_for_bestdeal
         txt = '<b>Выбраны лучшие предложения</b>'
 

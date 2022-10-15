@@ -72,6 +72,7 @@ def get_answer(call):
     if call.data == 'yes':
         msg = bot.send_message(call.from_user.id, text='Укажите количество (не более 10):')
         bot.register_next_step_handler(msg, get_photos)
+        bot.delete_message(call.message.chat.id, call.message.message_id)
     else:
         for hotel_id, hotel_name, string in display_result_getting_list_hotels(poll.city_id,
                                                                                poll.number_hotels,
@@ -82,6 +83,7 @@ def get_answer(call):
             poll.list_foto[hotel_id] = hotel_name
             print(poll.list_foto)
             bot.send_message(user, text=string, parse_mode='html')
+        bot.delete_message(call.message.chat.id, call.message.message_id)
         return_key = InlineKeyboardMarkup()
         return_key.add(InlineKeyboardButton(text='Главное меню', callback_data='go'))
         bot.send_message(user, text='Доклад закончил...', reply_markup=return_key)
