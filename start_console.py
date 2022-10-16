@@ -48,9 +48,8 @@ def run_maim_menu(call):
         bot.send_message(call.from_user.id, text='Выберите действие для просмотра:', reply_markup=main_menu)
 
 
-@bot.message_handler(commands=['lowprice', 'highprice', 'bestdeal'])
+@bot.message_handler(commands=['lowprice', 'highprice', 'bestdeal', 'history'])
 def get_text_command_bestdeal(message):
-    txt = ''
     if 'lowprice' in message.text:
         command = lowprice.get_city_name_for_lowprice
         txt = '<b>Выбраны дешёвые отели</b>'
@@ -64,17 +63,18 @@ def get_text_command_bestdeal(message):
         txt = '<b>Выбраны лучшие предложения</b>'
 
     else:
-        command = text_command_chat
+        msg = bot.send_message(message.from_user.id, text='Сейчас проверю...')
+        bot.register_next_step_handler(msg, history.display_history)
+        return
 
     bot.send_message(message.from_user.id, ATTENTION)
     bot.send_message(message.from_user.id, text=txt, parse_mode='html')
     msg = bot.send_message(message.from_user.id, text='Укажите город для поиска')
-    bot.register_next_step_handler(msg, command)  # следующий шаг – функция get_started
+    bot.register_next_step_handler(msg, command)
 
 
 @bot.callback_query_handler(func=lambda call: call.data in ['lowprice', 'highprice', 'bestdeal', 'history'])
 def start_keyb_command(call):
-    txt = ''
     if 'lowprice' in call.data:
         bot.delete_message(call.message.chat.id, call.message.message_id)
         command = lowprice.get_city_name_for_lowprice
@@ -91,9 +91,11 @@ def start_keyb_command(call):
         txt = '<b>Выбраны лучшие предложения</b>'
 
     else:
-        command = text_command_chat
+        msg = bot.send_message(call.from_user.id, text='Сейчас проверю...')
+        history.display_history(msg)
+        return
 
     bot.send_message(call.from_user.id, ATTENTION)
     bot.send_message(call.from_user.id, text=txt, parse_mode='html')
     msg = bot.send_message(call.from_user.id, text='Укажите город для поиска')
-    bot.register_next_step_handler(msg, command)     # следующий шаг – функция get_started
+    bot.register_next_step_handler(msg, command)

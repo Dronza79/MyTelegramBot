@@ -24,7 +24,7 @@ def get_index_named_city(city):
                     index = item.get('destinationId')
                     break
             break
-    print(f'\n{city}', end=' ')
+    print(f'\n{city}: {index}')
     return index
 
 

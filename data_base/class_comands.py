@@ -10,16 +10,16 @@ class LowPrice:
         self.list_foto = dict()
         self.price_min = None
         self.price_max = None
+        self.checkin = None
+        self.checkout = None
+        self.deltatime = None
         self.sort_filter = 'PRICE'
 
     def __str__(self):
-        temp = 'Удача' if self.city_id else 'Неудача'
-        return (f'Ваш запрос: {temp}.\nТип: Дешевые отели.\nДата: '
-                f'{time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
-                f'\nГород: {self.city}.\nКоличество отелей {self.number_hotels}.')
+        return 'Дешевые отели'
 
     def __repr__(self):
-        return f'LowPrice: {time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
+        return f'{time.strftime("%d-%m-%y %H:%M:%S", time.localtime(self.date))}|LowPrice'
 
 
 class HighPrice:
@@ -31,16 +31,16 @@ class HighPrice:
         self.list_foto = dict()
         self.price_min = None
         self.price_max = None
+        self.checkin = None
+        self.checkout = None
+        self.deltatime = None
         self.sort_filter = 'PRICE_HIGHEST_FIRST'
 
     def __str__(self):
-        temp = 'Удача' if self.city_id else 'Неудача'
-        return (f'Ваш запрос: {temp}.\nТип: Дорогие отели.\nДата: '
-                f'{time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
-                f'\nГород: {self.city}.\nКоличество отелей {self.number_hotels}.')
+        return 'Дорогие отели'
 
     def __repr__(self):
-        return f'LowPrice: {time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
+        return f'{time.strftime("%d-%m-%y %H:%M:%S", time.localtime(self.date))}|HighPrice'
 
 
 class BestDeal:
@@ -52,13 +52,13 @@ class BestDeal:
         self.list_foto = dict()
         self.price_min = None
         self.price_max = None
+        self.checkin = None
+        self.checkout = None
+        self.deltatime = None
         self.sort_filter = 'DISTANCE_FROM_LANDMARK'
 
     def __str__(self):
-        temp = 'Удача' if self.city_id else 'Неудача'
-        return (f'Ваш запрос: {temp}.\nТип: Лучшие предложения.\nДата: '
-                f'{time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
-                f'\nГород: {self.city}.\nКоличество отелей {self.number_hotels}.')
+        return 'Лучшие предложения'
 
     def __repr__(self):
-        return f'LowPrice: {time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
+        return f'{time.strftime("%d-%m-%y %H:%M:%S", time.localtime(self.date))}|BestDeal'
