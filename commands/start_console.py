@@ -3,7 +3,7 @@ from telebot.types import Message, BotCommand, CallbackQuery, InlineKeyboardMark
 from api.big_text import ATTENTION
 from commands import lowprice, highprice, bestdeal, history
 from api.big_text import DESCRIPTION, HELP_ANSWER, GEN_KEYB
-from loader import bot
+from commands.loader import bot
 
 
 @bot.message_handler(commands=['start'])

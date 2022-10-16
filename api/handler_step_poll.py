@@ -4,7 +4,7 @@ import pickle
 
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
 
-from loader import bot, history
+from commands.loader import bot, history
 from api.big_text import ANSWER
 from api.handler_request_api_hotels import display_result_getting_list_hotels, give_list_photos_of_hotel
 

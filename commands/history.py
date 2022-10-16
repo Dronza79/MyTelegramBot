@@ -2,10 +2,9 @@ import pickle
 import os
 import time
 
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from loader import bot, history
-from data_base import class_comands
+from commands.loader import bot, history
 
 
 def get_history():
@@ -25,6 +24,7 @@ def get_history():
 def display_history(message):
     print(message)
     user = message.chat.id
+    bot.delete_message(message.chat.id, message.message_id)
     data = get_history()
     find_history = data.get(user)
     if not find_history:
@@ -36,10 +36,10 @@ def display_history(message):
     for action in find_history:
         hotels = ''
         for htl in action.list_foto.values():
-            hotels += ' - ' + htl[0] + '\n'
+            hotels += '\t- ' + htl[0] + '\n'
         report = (f'<b>{cnt} действие\n{"*" * 50}\n</b>'
                   f'{time.strftime("%c", time.localtime(action.date))}\n'
-                  f'Команда: {action}\nГород: {action.city.capitalize()}'
+                  f'Команда: {action}\nГород: {action.city.capitalize()} '
                   f'Количество отелей: {action.number_hotels}\nСписок отелей:\n{hotels}')
         cnt += 1
         bot.send_message(user, text=report, parse_mode='html')

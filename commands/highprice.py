@@ -3,7 +3,7 @@ import pickle
 from api.handler_step_poll import get_checkin_checkout
 from api.handler_request_api_hotels import get_index_named_city
 from data_base.class_comands import HighPrice
-from loader import bot, history
+from commands.loader import bot, history
 
 
 def get_city_name_for_highprice(message):  # получаем город, инициализируем запрос

@@ -2,7 +2,7 @@ import json
 import random
 
 import requests
-from loader import RapidAPI_Key, tomorrow, next_day
+from commands.loader import RapidAPI_Key, tomorrow, next_day
 
 
 def get_index_named_city(city):

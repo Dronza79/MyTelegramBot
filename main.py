@@ -1,6 +1,4 @@
-import commands
-import start_console
-from loader import bot
+from commands.loader import bot
 
 
 if __name__ == '__main__':
