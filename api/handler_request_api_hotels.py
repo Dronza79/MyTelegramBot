@@ -2,7 +2,7 @@ import json
 import random
 
 import requests
-from loader import RapidAPI_Key, tomorrow, next_day
+from commands.loader import RapidAPI_Key, tomorrow, next_day
 
 
 def get_index_named_city(city):
@@ -24,7 +24,7 @@ def get_index_named_city(city):
                     index = item.get('destinationId')
                     break
             break
-    print(f'\n{city}', end=' ')
+    print(f'\n{city}: {index}')
     return index
 
 

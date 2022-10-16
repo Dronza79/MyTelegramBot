@@ -1,29 +1,9 @@
-import time
+import pickle
 
 from api.handler_step_poll import get_checkin_checkout
 from api.handler_request_api_hotels import get_index_named_city
-from loader import bot, history
-
-
-class LowPrice:
-    def __init__(self, date, city):
-        self.date = date
-        self.city = city
-        self.city_id = None
-        self.number_hotels = None
-        self.list_foto = dict()
-        self.price_min = None
-        self.price_max = None
-        self.checkin = None
-        self.checkout = None
-        self.deltatime = None
-        self.sort_filter = 'PRICE'
-
-    def __repr__(self):
-        temp = 'Удача' if self.city_id else 'Неудача'
-        return (f'Ваш запрос: {temp}.\nТип: Дешевые отели.\nДата: '
-                f'{time.strftime("%d-%m-%Y %a, %H:%M:%S", time.localtime(self.date))}'
-                f'\nГород: {self.city}.\nКоличество отелей {self.number_hotels}.')
+from data_base.class_comands import LowPrice
+from commands.loader import bot, history
 
 
 def get_city_name_for_lowprice(message):  # получаем город, инициализируем запрос
@@ -39,6 +19,9 @@ def get_city_name_for_lowprice(message):  # получаем город, ини�
     bot.send_message(message.from_user.id, 'Проверяю....')
     result = get_index_named_city(city)
     poll.city_id = result
+    print(history)
+    with open('data_base/history.pickle', 'wb') as f:
+        pickle.dump(history, f)
     if not result:
         msg = bot.send_message(message.from_user.id, text='Такого города найти не смог\n'
                                                           'укажите другой город:')
