@@ -37,9 +37,11 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, timedelta, p_
     if p_from and p_to:
         querystring['priceMin'] = p_from
         querystring['priceMax'] = p_to
-    print(querystring)
+    print("querystring=", querystring)
     headers = {"X-RapidAPI-Key": RapidAPI_Key, "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
     response = requests.request("GET", url, headers=headers, params=querystring)
+    print("response=", response)
+    print("response.text=", response.text)
     data = json.loads(response.text)
     hotels = data.get('data').get('body').get('searchResults').get('results')
     count = 0
