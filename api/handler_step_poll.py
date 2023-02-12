@@ -35,10 +35,11 @@ def get_min_and_max_value(message):
 def get_checkin_checkout(message):
     string = message.text
     user = message.chat.id
-    if re.fullmatch('[0123]\d/[01]\d/2[23]-[0123]\d/[01]\d/2[23]', string):
-        if all(map(lambda lst: 0 < int(lst.split('/')[0]) <= 31 and
-                               0 < int(lst.split('/')[1]) <= 12,
-                   string.split('-'))):
+    if re.fullmatch('[0123]\d/[01]\d/2[34]-[0123]\d/[01]\d/2[34]', string):
+        if all(map(
+                lambda lst: 0 < int(lst.split('/')[0]) <= 31 and
+                            0 < int(lst.split('/')[1]) <= 12,
+                string.split('-'))):
             now = time.localtime()
             checkin = time.strptime(string.split('-')[0], '%d/%m/%y')
             checkout = time.strptime(string.split('-')[1], '%d/%m/%y')
@@ -84,12 +85,14 @@ def get_answer(call):
         bot.register_next_step_handler(msg, get_photos)
         bot.delete_message(call.message.chat.id, call.message.message_id)
     else:
-        for hotel_id, hotel_name, string in display_result_getting_list_hotels(poll.city_id,
-                                                                               poll.number_hotels,
-                                                                               poll.sort_filter,
-                                                                               poll.deltatime,
-                                                                               poll.price_min,
-                                                                               poll.price_max):
+        for hotel_id, hotel_name, string in display_result_getting_list_hotels(
+                town_id=poll.city_id,
+                amount_htls=poll.number_hotels,
+                sort=poll.sort_filter,
+                checkin=poll.checkin,
+                checkout=poll.checkout,
+                p_from=poll.price_min,
+                p_to=poll.price_max):
             poll.list_foto[hotel_id] = [hotel_name]
             with open('data_base/history.pickle', 'wb') as f:
                 pickle.dump(history, f)
@@ -110,12 +113,14 @@ def get_photos(message):
         return
 
     poll = history[user][len(history[user]) - 1]
-    for hotel_id, hotel_name, string in display_result_getting_list_hotels(poll.city_id,
-                                                                           poll.number_hotels,
-                                                                           poll.sort_filter,
-                                                                           poll.deltatime,
-                                                                           poll.price_min,
-                                                                           poll.price_max):
+    for hotel_id, hotel_name, string in display_result_getting_list_hotels(
+            town_id=poll.city_id,
+            amount_htls=poll.number_hotels,
+            sort=poll.sort_filter,
+            checkin=poll.checkin,
+            checkout=poll.checkout,
+            p_from=poll.price_min,
+            p_to=poll.price_max):
         hotel_foto = give_list_photos_of_hotel(hotel_id, hotel_name, num_foto)
         print(f'{hotel_id}: {hotel_foto}')
         poll.list_foto[hotel_id] = hotel_foto

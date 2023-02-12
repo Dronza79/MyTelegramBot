@@ -13,7 +13,7 @@ class LowPrice:
         self.checkin = None
         self.checkout = None
         self.deltatime = None
-        self.sort_filter = 'PRICE'
+        self.sort_filter = 'PRICE_LOW_TO_HIGH'
 
     def __str__(self):
         return 'Дешевые отели'
@@ -34,7 +34,7 @@ class HighPrice:
         self.checkin = None
         self.checkout = None
         self.deltatime = None
-        self.sort_filter = 'PRICE_HIGHEST_FIRST'
+        self.sort_filter = '-PRICE_LOW_TO_HIGH'
 
     def __str__(self):
         return 'Дорогие отели'
@@ -55,7 +55,7 @@ class BestDeal:
         self.checkin = None
         self.checkout = None
         self.deltatime = None
-        self.sort_filter = 'DISTANCE_FROM_LANDMARK'
+        self.sort_filter = 'DISTANCE'
 
     def __str__(self):
         return 'Лучшие предложения'
