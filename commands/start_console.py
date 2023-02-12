@@ -64,7 +64,7 @@ def get_text_command_bestdeal(message):
 
     else:
         msg = bot.send_message(message.from_user.id, text='Сейчас проверю...')
-        bot.register_next_step_handler(msg, history.display_history)
+        history.display_history(msg)
         return
 
     bot.send_message(message.from_user.id, ATTENTION)
