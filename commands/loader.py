@@ -14,8 +14,6 @@ RapidAPI_Key = os.environ.get("RapidAPI_Key")
 
 bot = telebot.TeleBot(__token)
 
-tomorrow = (datetime.today() + timedelta(days=1)).strftime('%Y-%m-%d')
-next_day = (datetime.today() + timedelta(days=2)).strftime('%Y-%m-%d')
 
 if os.path.isfile('data_base/history.pickle'):
     with open('data_base/history.pickle', 'rb') as f:

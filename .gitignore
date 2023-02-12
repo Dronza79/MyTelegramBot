@@ -5,3 +5,4 @@
 *.pickle
 /data_base/history.json
 /temp/t1.py
+/temp/
