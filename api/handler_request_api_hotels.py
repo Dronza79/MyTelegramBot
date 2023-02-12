@@ -47,8 +47,12 @@ def display_result_getting_list_hotels(town_id, amount_htls, sort, checkin, chec
         "sort": sort
     }
     if p_from and p_to:
-        payload['filters']['price']['min'] = p_from
-        payload['filters']['price']['max'] = p_to
+        payload['filters'] = {
+            'price': {
+                'min': p_from,
+                'max': p_to
+            }
+        }
     print("payload=", payload)
     headers = {
         "content-type": "application/json",
